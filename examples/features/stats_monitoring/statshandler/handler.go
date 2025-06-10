@@ -25,10 +25,10 @@ import (
 	"net"
 	"path/filepath"
 
-	"google.golang.org/grpc/stats"
+	"github.com/ajith-anz/grpc/stats"
 )
 
-// Handler implements [stats.Handler](https://pkg.go.dev/google.golang.org/grpc/stats#Handler) interface.
+// Handler implements [stats.Handler](https://pkg.go.dev/github.com/ajith-anz/grpc/stats#Handler) interface.
 type Handler struct{}
 
 type connStatCtxKey struct{}
@@ -87,7 +87,7 @@ func (st *Handler) HandleRPC(ctx context.Context, stat stats.RPCStats) {
 	}
 }
 
-// New returns a new implementation of [stats.Handler](https://pkg.go.dev/google.golang.org/grpc/stats#Handler) interface.
+// New returns a new implementation of [stats.Handler](https://pkg.go.dev/github.com/ajith-anz/grpc/stats#Handler) interface.
 func New() *Handler {
 	return &Handler{}
 }

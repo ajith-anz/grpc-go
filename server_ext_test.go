@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/internal/stubserver"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal/grpcsync"
+	"github.com/ajith-anz/grpc/internal/stubserver"
+	"github.com/ajith-anz/grpc/status"
 
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
 )
 
 // TestServer_MaxHandlers ensures that no more than MaxConcurrentStreams server

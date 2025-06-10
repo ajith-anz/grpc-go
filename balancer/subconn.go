@@ -19,9 +19,9 @@
 package balancer
 
 import (
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 // A SubConn represents a single connection to a gRPC backend service.

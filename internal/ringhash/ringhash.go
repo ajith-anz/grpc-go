@@ -24,7 +24,7 @@ package ringhash
 import (
 	"context"
 
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 // LBConfig is the balancer config for ring_hash balancer.

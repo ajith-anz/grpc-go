@@ -22,9 +22,9 @@ package xdsclient
 
 import (
 	v3statuspb "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
-	"google.golang.org/grpc/internal/xds/bootstrap"
-	"google.golang.org/grpc/xds/internal/xdsclient/load"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient/load"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // XDSClient is a full fledged gRPC client which queries a set of discovery APIs

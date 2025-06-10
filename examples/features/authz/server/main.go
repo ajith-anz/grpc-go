@@ -31,16 +31,16 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/authz"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/examples/data"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/authz"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/examples/data"
+	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc/status"
 
-	"google.golang.org/grpc/examples/features/authz/token"
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	"github.com/ajith-anz/grpc/examples/features/authz/token"
+	pb "github.com/ajith-anz/grpc/examples/features/proto/echo"
 )
 
 const (

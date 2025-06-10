@@ -22,8 +22,8 @@ import (
 	"errors"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/connectivity"
 )
 
 var (

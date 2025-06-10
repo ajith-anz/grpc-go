@@ -20,12 +20,12 @@ package grpctransport_test
 import (
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/grpctest"
-	internalbootstrap "google.golang.org/grpc/internal/xds/bootstrap"
-	"google.golang.org/grpc/xds/internal/xdsclient/internal"
-	"google.golang.org/grpc/xds/internal/xdsclient/transport"
-	"google.golang.org/grpc/xds/internal/xdsclient/transport/grpctransport"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	internalbootstrap "github.com/ajith-anz/grpc/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient/internal"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport/grpctransport"
 )
 
 type s struct {

@@ -27,15 +27,15 @@ import (
 	"net"
 	"strings"
 
-	"google.golang.org/grpc/channelz"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	estats "google.golang.org/grpc/experimental/stats"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/channelz"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/credentials"
+	estats "github.com/ajith-anz/grpc/experimental/stats"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 var (

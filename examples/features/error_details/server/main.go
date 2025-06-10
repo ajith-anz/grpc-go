@@ -27,12 +27,12 @@ import (
 	"net"
 	"sync"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/status"
 
 	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
+	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
 )
 
 var port = flag.Int("port", 50052, "port number")

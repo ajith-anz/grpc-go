@@ -27,10 +27,10 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 func generateTarget(target string) resolver.Target {

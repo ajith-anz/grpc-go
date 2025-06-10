@@ -26,7 +26,7 @@ import (
 	"io"
 	"testing"
 
-	"google.golang.org/grpc/mem"
+	"github.com/ajith-anz/grpc/mem"
 )
 
 const (

@@ -23,7 +23,7 @@ package proxyattributes
 import (
 	"net/url"
 
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 type keyType string

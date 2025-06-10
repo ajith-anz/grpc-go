@@ -30,19 +30,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/balancer"
-	grpclbstate "google.golang.org/grpc/balancer/grpclb/state"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/resolver/dns"
-	dnsinternal "google.golang.org/grpc/internal/resolver/dns/internal"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/resolver"
-	dnspublic "google.golang.org/grpc/resolver/dns"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/balancer"
+	grpclbstate "github.com/ajith-anz/grpc/balancer/grpclb/state"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/envconfig"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/internal/resolver/dns"
+	dnsinternal "github.com/ajith-anz/grpc/internal/resolver/dns/internal"
+	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc/resolver"
+	dnspublic "github.com/ajith-anz/grpc/resolver/dns"
+	"github.com/ajith-anz/grpc/serviceconfig"
 
-	_ "google.golang.org/grpc" // To initialize internal.ParseServiceConfig
+	_ "github.com/ajith-anz/grpc" // To initialize internal.ParseServiceConfig
 )
 
 const (

@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	iringhash "google.golang.org/grpc/internal/ringhash"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/metadata"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/connectivity"
+	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
+	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc/metadata"
 )
 
 var (

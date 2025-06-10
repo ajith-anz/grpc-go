@@ -27,10 +27,10 @@
 package orca
 
 import (
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/balancerload"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/orca/internal"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/internal/balancerload"
+	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc/orca/internal"
 )
 
 var logger = grpclog.Component("orca-backend-metrics")

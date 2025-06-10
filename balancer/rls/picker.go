@@ -25,15 +25,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/rls/internal/keys"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	estats "google.golang.org/grpc/experimental/stats"
-	internalgrpclog "google.golang.org/grpc/internal/grpclog"
-	rlspb "google.golang.org/grpc/internal/proto/grpc_lookup_v1"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/balancer/rls/internal/keys"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/connectivity"
+	estats "github.com/ajith-anz/grpc/experimental/stats"
+	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
+	rlspb "github.com/ajith-anz/grpc/internal/proto/grpc_lookup_v1"
+	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc/status"
 )
 
 var (

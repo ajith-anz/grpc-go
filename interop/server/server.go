@@ -29,16 +29,16 @@ import (
 	"strconv"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/alts"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/interop"
-	"google.golang.org/grpc/orca"
-	"google.golang.org/grpc/testdata"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/credentials/alts"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/interop"
+	"github.com/ajith-anz/grpc/orca"
+	"github.com/ajith-anz/grpc/testdata"
 
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
 )
 
 var (

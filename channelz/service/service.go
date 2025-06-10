@@ -22,12 +22,12 @@ package service
 import (
 	"context"
 
-	channelzgrpc "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	channelzpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
+	channelzgrpc "github.com/ajith-anz/grpc/channelz/grpc_channelz_v1"
+	channelzpb "github.com/ajith-anz/grpc/channelz/grpc_channelz_v1"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/channelz/internal/protoconv"
-	"google.golang.org/grpc/internal/channelz"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/channelz/internal/protoconv"
+	"github.com/ajith-anz/grpc/internal/channelz"
 )
 
 func init() {
@@ -37,7 +37,7 @@ func init() {
 // RegisterChannelzServiceToServer registers the channelz service to the given server.
 //
 // Note: it is preferred to use the admin API
-// (https://pkg.go.dev/google.golang.org/grpc/admin#Register) instead to
+// (https://pkg.go.dev/github.com/ajith-anz/grpc/admin#Register) instead to
 // register Channelz and other administrative services.
 func RegisterChannelzServiceToServer(s grpc.ServiceRegistrar) {
 	channelzgrpc.RegisterChannelzServer(s, newCZServer())

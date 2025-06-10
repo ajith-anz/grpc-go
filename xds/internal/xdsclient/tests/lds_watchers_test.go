@@ -30,20 +30,20 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/uuid"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/internal/testutils/xds/e2e"
-	"google.golang.org/grpc/internal/xds/bootstrap"
-	"google.golang.org/grpc/xds/internal/xdsclient"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc/internal/grpcsync"
+	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
 
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 	v3routerpb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/router/v3"
 	v3httppb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 	v3discoverypb "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	_ "google.golang.org/grpc/xds"                            // To ensure internal.NewXDSResolverWithConfigForTesting is set.
-	_ "google.golang.org/grpc/xds/internal/httpfilter/router" // Register the router filter.
+	_ "github.com/ajith-anz/grpc/xds"                            // To ensure internal.NewXDSResolverWithConfigForTesting is set.
+	_ "github.com/ajith-anz/grpc/xds/internal/httpfilter/router" // Register the router filter.
 )
 
 type noopListenerWatcher struct{}

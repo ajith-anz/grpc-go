@@ -28,8 +28,8 @@ import (
 	"testing"
 
 	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/testutils/xds/fakeserver"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/internal/testutils/xds/fakeserver"
 
 	v3clusterpb "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"

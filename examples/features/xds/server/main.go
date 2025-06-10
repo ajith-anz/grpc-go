@@ -29,14 +29,14 @@ import (
 	"net"
 	"os"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	xdscreds "google.golang.org/grpc/credentials/xds"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/health"
-	healthgrpc "google.golang.org/grpc/health/grpc_health_v1"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
-	"google.golang.org/grpc/xds"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	xdscreds "github.com/ajith-anz/grpc/credentials/xds"
+	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
+	"github.com/ajith-anz/grpc/health"
+	healthgrpc "github.com/ajith-anz/grpc/health/grpc_health_v1"
+	healthpb "github.com/ajith-anz/grpc/health/grpc_health_v1"
+	"github.com/ajith-anz/grpc/xds"
 )
 
 var (

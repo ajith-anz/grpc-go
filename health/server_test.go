@@ -21,10 +21,10 @@ package health_test
 import (
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/health"
-	healthgrpc "google.golang.org/grpc/health/grpc_health_v1"
-	"google.golang.org/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/health"
+	healthgrpc "github.com/ajith-anz/grpc/health/grpc_health_v1"
+	"github.com/ajith-anz/grpc/internal/grpctest"
 )
 
 type s struct {

@@ -26,7 +26,7 @@ import (
 	"net"
 	"strings"
 
-	"google.golang.org/grpc/credentials"
+	"github.com/ajith-anz/grpc/credentials"
 )
 
 // Peer contains the information of the peer for an RPC, such as the address

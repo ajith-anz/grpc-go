@@ -21,11 +21,11 @@ package priority
 import (
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/balancer/base"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 type childBalancer struct {

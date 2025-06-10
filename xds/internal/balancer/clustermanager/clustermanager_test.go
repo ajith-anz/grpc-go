@@ -25,17 +25,17 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/pickfirst"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/balancer/stub"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/hierarchy"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/balancer/pickfirst"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal/balancer/stub"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/internal/hierarchy"
+	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/status"
 )
 
 type s struct {

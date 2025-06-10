@@ -24,14 +24,14 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/experimental/stats"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/experimental/stats"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/grpcsync"
+	"github.com/ajith-anz/grpc/resolver"
 
-	istats "google.golang.org/grpc/internal/stats"
+	istats "github.com/ajith-anz/grpc/internal/stats"
 )
 
 // TestSubConn implements the SubConn interface, to be used in tests.

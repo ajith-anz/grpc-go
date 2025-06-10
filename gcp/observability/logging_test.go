@@ -31,13 +31,13 @@ import (
 	gcplogging "cloud.google.com/go/logging"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/stubserver"
-	"google.golang.org/grpc/metadata"
+	"github.com/ajith-anz/grpc/internal/envconfig"
+	"github.com/ajith-anz/grpc/internal/stubserver"
+	"github.com/ajith-anz/grpc/metadata"
 
-	binlogpb "google.golang.org/grpc/binarylog/grpc_binarylog_v1"
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	binlogpb "github.com/ajith-anz/grpc/binarylog/grpc_binarylog_v1"
+	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
 )
 
 func cmpLoggingEntryList(got []*grpcLogEntry, want []*grpcLogEntry) error {

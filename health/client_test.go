@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/connectivity"
+	"github.com/ajith-anz/grpc/connectivity"
 )
 
 const defaultTestTimeout = 10 * time.Second

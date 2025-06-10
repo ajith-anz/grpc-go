@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"os"
 
-	"google.golang.org/grpc/security/advancedtls/testdata"
+	"github.com/ajith-anz/grpc/security/advancedtls/testdata"
 )
 
 // CertStore contains all the certificates used in the integration tests.

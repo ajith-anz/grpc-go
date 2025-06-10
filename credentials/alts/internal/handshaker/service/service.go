@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	grpc "google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/keepalive"
+	grpc "github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal/envconfig"
+	"github.com/ajith-anz/grpc/keepalive"
 )
 
 var (

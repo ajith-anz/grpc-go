@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"time"
 
-	iserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/serviceconfig"
+	iserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 // SuccessRateEjection is parameters for the success rate ejection algorithm.

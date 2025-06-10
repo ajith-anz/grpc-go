@@ -30,9 +30,9 @@
 package admin
 
 import (
-	"google.golang.org/grpc"
-	channelzservice "google.golang.org/grpc/channelz/service"
-	internaladmin "google.golang.org/grpc/internal/admin"
+	"github.com/ajith-anz/grpc"
+	channelzservice "github.com/ajith-anz/grpc/channelz/service"
+	internaladmin "github.com/ajith-anz/grpc/internal/admin"
 )
 
 func init() {

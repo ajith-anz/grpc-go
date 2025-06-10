@@ -27,10 +27,10 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/credentials/tls/certprovider"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/testdata"
+	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc/testdata"
 )
 
 const (

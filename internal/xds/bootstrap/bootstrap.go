@@ -30,11 +30,11 @@ import (
 	"slices"
 	"strings"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/tls/certprovider"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/xds/bootstrap"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/envconfig"
+	"github.com/ajith-anz/grpc/xds/bootstrap"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/structpb"
 

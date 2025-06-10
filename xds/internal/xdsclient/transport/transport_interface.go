@@ -22,7 +22,7 @@ package transport
 import (
 	"context"
 
-	"google.golang.org/grpc/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
 )
 
 // Builder is an interface for building a new xDS transport.

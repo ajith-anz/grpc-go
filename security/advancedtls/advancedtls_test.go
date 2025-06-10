@@ -30,11 +30,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/tls/certprovider"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/security/advancedtls/internal/testutils"
-	"google.golang.org/grpc/security/advancedtls/testdata"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/security/advancedtls/internal/testutils"
+	"github.com/ajith-anz/grpc/security/advancedtls/testdata"
 )
 
 type s struct {

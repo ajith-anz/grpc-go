@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/pretty"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/orca/internal"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/internal/pretty"
+	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc/orca/internal"
 	"google.golang.org/protobuf/proto"
 
 	v3orcapb "github.com/cncf/xds/go/xds/data/orca/v3"

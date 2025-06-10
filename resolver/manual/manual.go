@@ -23,7 +23,7 @@ package manual
 import (
 	"sync"
 
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 // NewBuilderWithScheme creates a new manual resolver builder with the given

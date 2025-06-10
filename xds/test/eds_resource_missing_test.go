@@ -26,26 +26,26 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/testutils/xds/e2e"
-	"google.golang.org/grpc/internal/testutils/xds/e2e/setup"
-	"google.golang.org/grpc/internal/xds/bootstrap"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/xds/internal/xdsclient"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e/setup"
+	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient"
 
 	v3clusterpb "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
 	v3endpointpb "github.com/envoyproxy/go-control-plane/envoy/config/endpoint/v3"
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 	v3routepb "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
 
-	_ "google.golang.org/grpc/xds" // To register the xDS resolver and LB policies.
+	_ "github.com/ajith-anz/grpc/xds" // To register the xDS resolver and LB policies.
 )
 
 const (

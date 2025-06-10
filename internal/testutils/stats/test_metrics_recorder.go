@@ -25,9 +25,9 @@ import (
 	"sync"
 
 	"github.com/google/go-cmp/cmp"
-	estats "google.golang.org/grpc/experimental/stats"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/stats"
+	estats "github.com/ajith-anz/grpc/experimental/stats"
+	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc/stats"
 )
 
 // TestMetricsRecorder is a MetricsRecorder to be used in tests. It sends

@@ -32,11 +32,11 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/testdata"
+	"github.com/ajith-anz/grpc/testdata"
 
-	"google.golang.org/grpc/credentials/tls/certprovider"
-	"google.golang.org/grpc/internal/credentials/spiffe"
-	"google.golang.org/grpc/internal/xds/matcher"
+	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc/internal/credentials/spiffe"
+	"github.com/ajith-anz/grpc/internal/xds/matcher"
 )
 
 type testCertProvider struct {

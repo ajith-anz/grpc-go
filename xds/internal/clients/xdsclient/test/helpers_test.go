@@ -28,11 +28,11 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/xds/internal/clients/internal/pretty"
-	"google.golang.org/grpc/xds/internal/clients/internal/testutils"
-	"google.golang.org/grpc/xds/internal/clients/xdsclient"
-	"google.golang.org/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/xds/internal/clients/internal/pretty"
+	"github.com/ajith-anz/grpc/xds/internal/clients/internal/testutils"
+	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient"
+	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
 	"google.golang.org/protobuf/proto"
 
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"

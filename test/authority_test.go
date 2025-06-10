@@ -30,17 +30,17 @@ import (
 	"sync"
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/stubserver"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal/stubserver"
+	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/resolver/manual"
+	"github.com/ajith-anz/grpc/status"
 
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
 )
 
 func authorityChecker(ctx context.Context, expectedAuthority string) (*testpb.Empty, error) {

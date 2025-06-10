@@ -91,7 +91,7 @@ const file_test_codec_perf_perf_proto_rawDesc = "" +
 	"\x1atest/codec_perf/perf.proto\x12\n" +
 	"codec.perf\"\x1c\n" +
 	"\x06Buffer\x12\x12\n" +
-	"\x04body\x18\x01 \x01(\fR\x04bodyB(Z&google.golang.org/grpc/test/codec_perfb\x06proto3"
+	"\x04body\x18\x01 \x01(\fR\x04bodyB(Z&github.com/ajith-anz/grpc/test/codec_perfb\x06proto3"
 
 var (
 	file_test_codec_perf_perf_proto_rawDescOnce sync.Once

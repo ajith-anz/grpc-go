@@ -33,13 +33,13 @@ import (
 	"sync"
 	"time"
 
-	grpclbstate "google.golang.org/grpc/balancer/grpclb/state"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/resolver/dns/internal"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	grpclbstate "github.com/ajith-anz/grpc/balancer/grpclb/state"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/internal/backoff"
+	"github.com/ajith-anz/grpc/internal/envconfig"
+	"github.com/ajith-anz/grpc/internal/resolver/dns/internal"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 var (

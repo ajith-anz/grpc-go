@@ -19,8 +19,8 @@
 package xdsresource
 
 import (
-	"google.golang.org/grpc/grpclog"
-	internalgrpclog "google.golang.org/grpc/internal/grpclog"
+	"github.com/ajith-anz/grpc/grpclog"
+	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
 )
 
 const prefix = "[xds-resource] "

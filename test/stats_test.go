@@ -25,14 +25,14 @@ import (
 	"sync"
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/stubserver"
-	"google.golang.org/grpc/interop"
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/stats"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal/stubserver"
+	"github.com/ajith-anz/grpc/interop"
+	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	"github.com/ajith-anz/grpc/peer"
+	"github.com/ajith-anz/grpc/stats"
 )
 
 // TestPeerForClientStatsHandler configures a stats handler that

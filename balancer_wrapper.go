@@ -23,16 +23,16 @@ import (
 	"fmt"
 	"sync"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/experimental/stats"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/balancer/gracefulswitch"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/experimental/stats"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/balancer/gracefulswitch"
+	"github.com/ajith-anz/grpc/internal/channelz"
+	"github.com/ajith-anz/grpc/internal/grpcsync"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/status"
 )
 
 var (

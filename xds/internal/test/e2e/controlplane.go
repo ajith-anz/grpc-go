@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"google.golang.org/grpc/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
 )
 
 type controlPlane struct {

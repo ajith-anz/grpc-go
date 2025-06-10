@@ -24,9 +24,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/grpc/internal/envconfig"
-	iringhash "google.golang.org/grpc/internal/ringhash"
-	"google.golang.org/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc/internal/envconfig"
+	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
+	"github.com/ajith-anz/grpc/internal/testutils"
 )
 
 func (s) TestParseConfig(t *testing.T) {

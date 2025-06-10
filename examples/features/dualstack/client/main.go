@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	hwpb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	hwpb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
+	"github.com/ajith-anz/grpc/peer"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 const (

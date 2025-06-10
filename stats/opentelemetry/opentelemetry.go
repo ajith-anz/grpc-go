@@ -32,14 +32,14 @@ import (
 	otelmetric "go.opentelemetry.io/otel/metric"
 	"go.opentelemetry.io/otel/metric/noop"
 	"go.opentelemetry.io/otel/trace"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	experimental "google.golang.org/grpc/experimental/opentelemetry"
-	estats "google.golang.org/grpc/experimental/stats"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/stats"
-	otelinternal "google.golang.org/grpc/stats/opentelemetry/internal"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/codes"
+	experimental "github.com/ajith-anz/grpc/experimental/opentelemetry"
+	estats "github.com/ajith-anz/grpc/experimental/stats"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/stats"
+	otelinternal "github.com/ajith-anz/grpc/stats/opentelemetry/internal"
 )
 
 func init() {

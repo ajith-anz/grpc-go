@@ -25,12 +25,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/balancer/stub"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
+	"github.com/ajith-anz/grpc/attributes"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal/balancer/stub"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/resolver/manual"
 )
 
 type wrapResolverBuilder struct {

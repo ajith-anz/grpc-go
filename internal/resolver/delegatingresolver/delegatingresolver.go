@@ -26,12 +26,12 @@ import (
 	"net/url"
 	"sync"
 
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/proxyattributes"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/internal/transport/networktype"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/internal/proxyattributes"
+	"github.com/ajith-anz/grpc/internal/transport"
+	"github.com/ajith-anz/grpc/internal/transport/networktype"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 var (

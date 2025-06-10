@@ -919,7 +919,7 @@ const file_grpc_binlog_v1_binarylog_proto_rawDesc = "" +
 	"\tTYPE_IPV4\x10\x01\x12\r\n" +
 	"\tTYPE_IPV6\x10\x02\x12\r\n" +
 	"\tTYPE_UNIX\x10\x03B\\\n" +
-	"\x14io.grpc.binarylog.v1B\x0eBinaryLogProtoP\x01Z2google.golang.org/grpc/binarylog/grpc_binarylog_v1b\x06proto3"
+	"\x14io.grpc.binarylog.v1B\x0eBinaryLogProtoP\x01Z2github.com/ajith-anz/grpc/binarylog/grpc_binarylog_v1b\x06proto3"
 
 var (
 	file_grpc_binlog_v1_binarylog_proto_rawDescOnce sync.Once

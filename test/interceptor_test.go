@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/stubserver"
-	"google.golang.org/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/internal/stubserver"
+	"github.com/ajith-anz/grpc/internal/testutils"
 
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
 )
 
 type parentCtxkey struct{}

@@ -24,7 +24,7 @@ import (
 	"context"
 	"net"
 
-	"google.golang.org/grpc/credentials"
+	"github.com/ajith-anz/grpc/credentials"
 )
 
 // NewCredentials returns a credentials which disables transport security.

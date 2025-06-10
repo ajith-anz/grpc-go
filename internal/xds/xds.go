@@ -19,8 +19,8 @@
 package xds
 
 import (
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/attributes"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 // handshakeClusterNameKey is the type used as the key to store cluster name in

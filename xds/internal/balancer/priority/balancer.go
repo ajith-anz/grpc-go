@@ -29,17 +29,17 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/balancergroup"
-	"google.golang.org/grpc/internal/buffer"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/internal/hierarchy"
-	"google.golang.org/grpc/internal/pretty"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/balancer/base"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/internal/balancergroup"
+	"github.com/ajith-anz/grpc/internal/buffer"
+	"github.com/ajith-anz/grpc/internal/grpclog"
+	"github.com/ajith-anz/grpc/internal/grpcsync"
+	"github.com/ajith-anz/grpc/internal/hierarchy"
+	"github.com/ajith-anz/grpc/internal/pretty"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 // Name is the name of the priority balancer.

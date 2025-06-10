@@ -27,13 +27,13 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/channelz/service"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/channelz/service"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/resolver/manual"
 
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
+	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
 )
 
 const (

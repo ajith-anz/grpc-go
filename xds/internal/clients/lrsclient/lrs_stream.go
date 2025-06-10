@@ -24,11 +24,11 @@ import (
 	"io"
 	"time"
 
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/backoff"
-	igrpclog "google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/pretty"
-	"google.golang.org/grpc/xds/internal/clients"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/internal/backoff"
+	igrpclog "github.com/ajith-anz/grpc/internal/grpclog"
+	"github.com/ajith-anz/grpc/internal/pretty"
+	"github.com/ajith-anz/grpc/xds/internal/clients"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/durationpb"
 

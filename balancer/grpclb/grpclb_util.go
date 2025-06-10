@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 const subConnCacheTime = time.Second * 10

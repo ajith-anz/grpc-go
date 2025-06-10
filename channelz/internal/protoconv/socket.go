@@ -22,15 +22,15 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/internal/channelz"
+	"github.com/ajith-anz/grpc/status"
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	channelzpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
+	channelzpb "github.com/ajith-anz/grpc/channelz/grpc_channelz_v1"
 )
 
 func securityToProto(se credentials.ChannelzSecurityValue) *channelzpb.Security {

@@ -29,12 +29,12 @@ import (
 	"fmt"
 	"sync"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/resolver"
 
-	internalgrpclog "google.golang.org/grpc/internal/grpclog"
+	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
 )
 
 var (

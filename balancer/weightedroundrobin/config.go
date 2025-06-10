@@ -19,8 +19,8 @@
 package weightedroundrobin
 
 import (
-	iserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/serviceconfig"
+	iserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 type lbConfig struct {

@@ -28,12 +28,12 @@ import (
 	"strings"
 	"unsafe"
 
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/credentials/tls/certprovider"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/credentials/spiffe"
-	"google.golang.org/grpc/internal/xds/matcher"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/attributes"
+	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/credentials/spiffe"
+	"github.com/ajith-anz/grpc/internal/xds/matcher"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 func init() {

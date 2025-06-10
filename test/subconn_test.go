@@ -24,15 +24,15 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/balancer/stub"
-	"google.golang.org/grpc/internal/stubserver"
-	"google.golang.org/grpc/internal/testutils"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/balancer/base"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/internal/balancer/stub"
+	"github.com/ajith-anz/grpc/internal/stubserver"
+	"github.com/ajith-anz/grpc/internal/testutils"
+	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 type tsccPicker struct {

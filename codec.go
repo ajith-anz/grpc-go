@@ -19,9 +19,9 @@
 package grpc
 
 import (
-	"google.golang.org/grpc/encoding"
-	_ "google.golang.org/grpc/encoding/proto" // to register the Codec for "proto"
-	"google.golang.org/grpc/mem"
+	"github.com/ajith-anz/grpc/encoding"
+	_ "github.com/ajith-anz/grpc/encoding/proto" // to register the Codec for "proto"
+	"github.com/ajith-anz/grpc/mem"
 )
 
 // baseCodec captures the new encoding.CodecV2 interface without the Name

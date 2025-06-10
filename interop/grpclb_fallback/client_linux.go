@@ -30,15 +30,15 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"google.golang.org/grpc"
-	_ "google.golang.org/grpc/balancer/grpclb"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/alts"
-	"google.golang.org/grpc/credentials/google"
-	_ "google.golang.org/grpc/xds/googledirectpath"
+	"github.com/ajith-anz/grpc"
+	_ "github.com/ajith-anz/grpc/balancer/grpclb"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/credentials/alts"
+	"github.com/ajith-anz/grpc/credentials/google"
+	_ "github.com/ajith-anz/grpc/xds/googledirectpath"
 
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
 )
 
 var (

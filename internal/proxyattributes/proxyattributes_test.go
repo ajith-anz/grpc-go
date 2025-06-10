@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"testing"
 
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/attributes"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 type s struct {

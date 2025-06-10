@@ -22,8 +22,8 @@ package unix
 import (
 	"fmt"
 
-	"google.golang.org/grpc/internal/transport/networktype"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/internal/transport/networktype"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 const unixScheme = "unix"

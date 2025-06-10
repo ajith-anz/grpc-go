@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/backoff"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/grpclog"
-	internalbackoff "google.golang.org/grpc/internal/backoff"
-	internalgrpclog "google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/internal/xds/bootstrap"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc/backoff"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/grpclog"
+	internalbackoff "github.com/ajith-anz/grpc/internal/backoff"
+	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
+	"github.com/ajith-anz/grpc/internal/grpcsync"
+	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 var (

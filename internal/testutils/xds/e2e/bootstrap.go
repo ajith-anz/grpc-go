@@ -25,8 +25,8 @@ import (
 	"path"
 	"testing"
 
-	"google.golang.org/grpc/internal/xds/bootstrap"
-	"google.golang.org/grpc/testdata"
+	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc/testdata"
 )
 
 // DefaultFileWatcherConfig is a helper function to create a default certificate

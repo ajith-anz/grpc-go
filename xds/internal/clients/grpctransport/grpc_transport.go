@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/xds/internal/clients"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/keepalive"
+	"github.com/ajith-anz/grpc/xds/internal/clients"
 )
 
 var (

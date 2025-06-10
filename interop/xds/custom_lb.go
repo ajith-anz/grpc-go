@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"sync"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/internal/pretty"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/balancer/roundrobin"
+	"github.com/ajith-anz/grpc/internal/pretty"
+	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 func init() {

@@ -21,7 +21,7 @@ package grpcsync
 import (
 	"context"
 
-	"google.golang.org/grpc/internal/buffer"
+	"github.com/ajith-anz/grpc/internal/buffer"
 )
 
 // CallbackSerializer provides a mechanism to schedule callbacks in a

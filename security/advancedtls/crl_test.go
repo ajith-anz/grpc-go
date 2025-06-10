@@ -37,7 +37,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/security/advancedtls/testdata"
+	"github.com/ajith-anz/grpc/security/advancedtls/testdata"
 )
 
 func TestUnsupportedCRLs(t *testing.T) {

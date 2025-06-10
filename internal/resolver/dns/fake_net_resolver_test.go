@@ -23,7 +23,7 @@ import (
 	"net"
 	"sync"
 
-	"google.golang.org/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc/internal/testutils"
 )
 
 // A fake implementation of the internal.NetResolver interface for use in tests.

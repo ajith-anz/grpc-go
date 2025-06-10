@@ -28,14 +28,14 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/benchmark"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/syscall"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/testdata"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/benchmark"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/internal/syscall"
+	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc/testdata"
 )
 
 var (

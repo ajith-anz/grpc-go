@@ -30,14 +30,14 @@ import (
 	"path/filepath"
 	"time"
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github.com/ajith-anz/grpc/examples/features/proto/echo"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/credentials/tls/certprovider"
-	"google.golang.org/grpc/credentials/tls/certprovider/pemfile"
-	"google.golang.org/grpc/security/advancedtls"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc/credentials/tls/certprovider/pemfile"
+	"github.com/ajith-anz/grpc/security/advancedtls"
 )
 
 const credRefreshInterval = 1 * time.Minute

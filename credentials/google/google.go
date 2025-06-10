@@ -23,11 +23,11 @@ import (
 	"context"
 	"fmt"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/alts"
-	"google.golang.org/grpc/credentials/oauth"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/credentials/alts"
+	"github.com/ajith-anz/grpc/credentials/oauth"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/internal"
 )
 
 const defaultCloudPlatformScope = "https://www.googleapis.com/auth/cloud-platform"

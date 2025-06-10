@@ -21,8 +21,8 @@ package status_test
 import (
 	"testing"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/status"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/internal/status"
 )
 
 func TestRawStatusProto(t *testing.T) {

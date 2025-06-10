@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	_ "google.golang.org/grpc" // to register pick_first
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/endpointsharding"
-	"google.golang.org/grpc/balancer/pickfirst/pickfirstleaf"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/serviceconfig"
+	_ "github.com/ajith-anz/grpc" // to register pick_first
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/balancer/endpointsharding"
+	"github.com/ajith-anz/grpc/balancer/pickfirst/pickfirstleaf"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 func init() {

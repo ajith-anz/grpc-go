@@ -24,12 +24,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"google.golang.org/grpc/grpclog"
-	igrpclog "google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/xds/internal/clients"
-	"google.golang.org/grpc/xds/internal/clients/internal/syncutil"
-	"google.golang.org/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
-	"google.golang.org/grpc/xds/internal/clients/xdsclient/metrics"
+	"github.com/ajith-anz/grpc/grpclog"
+	igrpclog "github.com/ajith-anz/grpc/internal/grpclog"
+	"github.com/ajith-anz/grpc/xds/internal/clients"
+	"github.com/ajith-anz/grpc/xds/internal/clients/internal/syncutil"
+	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
+	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/metrics"
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 

@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/grpc/testdata"
+	"github.com/ajith-anz/grpc/testdata"
 )
 
 const wantURI = "spiffe://foo.bar.com/client/workload/1"

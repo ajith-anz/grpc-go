@@ -283,7 +283,7 @@ const file_grpc_health_v1_health_proto_rawDesc = "" +
 	"\x05Check\x12\".grpc.health.v1.HealthCheckRequest\x1a#.grpc.health.v1.HealthCheckResponse\x12M\n" +
 	"\x04List\x12!.grpc.health.v1.HealthListRequest\x1a\".grpc.health.v1.HealthListResponse\x12R\n" +
 	"\x05Watch\x12\".grpc.health.v1.HealthCheckRequest\x1a#.grpc.health.v1.HealthCheckResponse0\x01Bp\n" +
-	"\x11io.grpc.health.v1B\vHealthProtoP\x01Z,google.golang.org/grpc/health/grpc_health_v1\xa2\x02\fGrpcHealthV1\xaa\x02\x0eGrpc.Health.V1b\x06proto3"
+	"\x11io.grpc.health.v1B\vHealthProtoP\x01Z,github.com/ajith-anz/grpc/health/grpc_health_v1\xa2\x02\fGrpcHealthV1\xaa\x02\x0eGrpc.Health.V1b\x06proto3"
 
 var (
 	file_grpc_health_v1_health_proto_rawDescOnce sync.Once

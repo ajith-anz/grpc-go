@@ -23,10 +23,10 @@ import (
 	"sync"
 	"testing"
 
-	"google.golang.org/grpc/encoding"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/mem"
-	pb "google.golang.org/grpc/test/codec_perf"
+	"github.com/ajith-anz/grpc/encoding"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/mem"
+	pb "github.com/ajith-anz/grpc/test/codec_perf"
 )
 
 func marshalAndUnmarshal(t *testing.T, codec encoding.CodecV2, expectedBody []byte) {

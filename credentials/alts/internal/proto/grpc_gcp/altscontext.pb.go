@@ -153,7 +153,7 @@ const file_grpc_gcp_altscontext_proto_rawDesc = "" +
 	"\x13PeerAttributesEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n" +
 	"\x05value\x18\x02 \x01(\tR\x05value:\x028\x01Bl\n" +
-	"\x15io.grpc.alts.internalB\x10AltsContextProtoP\x01Z?google.golang.org/grpc/credentials/alts/internal/proto/grpc_gcpb\x06proto3"
+	"\x15io.grpc.alts.internalB\x10AltsContextProtoP\x01Z?github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcpb\x06proto3"
 
 var (
 	file_grpc_gcp_altscontext_proto_rawDescOnce sync.Once

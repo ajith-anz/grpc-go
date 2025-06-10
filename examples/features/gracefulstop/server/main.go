@@ -29,8 +29,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	"github.com/ajith-anz/grpc"
+	pb "github.com/ajith-anz/grpc/examples/features/proto/echo"
 )
 
 var (

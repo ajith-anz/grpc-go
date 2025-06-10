@@ -22,10 +22,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/buffer"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/internal/buffer"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 // subConnWrapper wraps every created SubConn in the Outlier Detection Balancer,

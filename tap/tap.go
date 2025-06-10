@@ -28,7 +28,7 @@ package tap
 import (
 	"context"
 
-	"google.golang.org/grpc/metadata"
+	"github.com/ajith-anz/grpc/metadata"
 )
 
 // Info defines the relevant information needed by the handles.

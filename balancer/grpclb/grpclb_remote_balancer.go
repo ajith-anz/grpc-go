@@ -26,19 +26,19 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/backoff"
-	imetadata "google.golang.org/grpc/internal/metadata"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal/backoff"
+	imetadata "github.com/ajith-anz/grpc/internal/metadata"
+	"github.com/ajith-anz/grpc/keepalive"
+	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc/resolver"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	lbpb "google.golang.org/grpc/balancer/grpclb/grpc_lb_v1"
+	lbpb "github.com/ajith-anz/grpc/balancer/grpclb/grpc_lb_v1"
 )
 
 func serverListEqual(a, b []*lbpb.Server) bool {

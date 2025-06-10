@@ -30,27 +30,27 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/balancer/pickfirst"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/internal/idle"
-	iresolver "google.golang.org/grpc/internal/resolver"
-	"google.golang.org/grpc/internal/stats"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/balancer/base"
+	"github.com/ajith-anz/grpc/balancer/pickfirst"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/channelz"
+	"github.com/ajith-anz/grpc/internal/grpcsync"
+	"github.com/ajith-anz/grpc/internal/idle"
+	iresolver "github.com/ajith-anz/grpc/internal/resolver"
+	"github.com/ajith-anz/grpc/internal/stats"
+	"github.com/ajith-anz/grpc/internal/transport"
+	"github.com/ajith-anz/grpc/keepalive"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/status"
 
-	_ "google.golang.org/grpc/balancer/roundrobin"           // To register roundrobin.
-	_ "google.golang.org/grpc/internal/resolver/passthrough" // To register passthrough resolver.
-	_ "google.golang.org/grpc/internal/resolver/unix"        // To register unix resolver.
-	_ "google.golang.org/grpc/resolver/dns"                  // To register dns resolver.
+	_ "github.com/ajith-anz/grpc/balancer/roundrobin"           // To register roundrobin.
+	_ "github.com/ajith-anz/grpc/internal/resolver/passthrough" // To register passthrough resolver.
+	_ "github.com/ajith-anz/grpc/internal/resolver/unix"        // To register unix resolver.
+	_ "github.com/ajith-anz/grpc/resolver/dns"                  // To register dns resolver.
 )
 
 const (
@@ -1707,7 +1707,7 @@ func (cc *ClientConn) initParsedTargetAndResolverBuilder() error {
 		defScheme = resolver.GetDefaultScheme()
 	}
 
-	canonicalTarget := defScheme + ":///" + cc.target
+	canonicalTarget := defScheme + "://" + cc.target
 
 	parsedTarget, err = parseTarget(canonicalTarget)
 	if err != nil {

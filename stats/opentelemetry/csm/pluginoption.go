@@ -25,9 +25,9 @@ import (
 	"net/url"
 	"os"
 
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats/opentelemetry/internal"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc/stats/opentelemetry/internal"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/structpb"
 

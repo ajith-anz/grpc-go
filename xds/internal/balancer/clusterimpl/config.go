@@ -21,9 +21,9 @@ package clusterimpl
 import (
 	"encoding/json"
 
-	internalserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/internal/xds/bootstrap"
-	"google.golang.org/grpc/serviceconfig"
+	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
+	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 // DropConfig contains the category, and drop ratio.

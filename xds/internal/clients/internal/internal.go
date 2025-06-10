@@ -20,7 +20,7 @@
 package internal
 
 import (
-	"google.golang.org/grpc/xds/internal/clients"
+	"github.com/ajith-anz/grpc/xds/internal/clients"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/structpb"
 

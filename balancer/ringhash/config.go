@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"strings"
 
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/metadata"
-	iringhash "google.golang.org/grpc/internal/ringhash"
+	"github.com/ajith-anz/grpc/internal/envconfig"
+	"github.com/ajith-anz/grpc/internal/metadata"
+	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
 )
 
 const (

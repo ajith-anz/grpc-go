@@ -767,7 +767,7 @@ const file_grpc_reflection_v1alpha_reflection_proto_rawDesc = "" +
 	"\rerror_message\x18\x02 \x01(\tR\ferrorMessage2\x93\x01\n" +
 	"\x10ServerReflection\x12\x7f\n" +
 	"\x14ServerReflectionInfo\x120.grpc.reflection.v1alpha.ServerReflectionRequest\x1a1.grpc.reflection.v1alpha.ServerReflectionResponse(\x010\x01Bs\n" +
-	"\x1aio.grpc.reflection.v1alphaB\x15ServerReflectionProtoP\x01Z9google.golang.org/grpc/reflection/grpc_reflection_v1alpha\xb8\x01\x01b\x06proto3"
+	"\x1aio.grpc.reflection.v1alphaB\x15ServerReflectionProtoP\x01Z9github.com/ajith-anz/grpc/reflection/grpc_reflection_v1alpha\xb8\x01\x01b\x06proto3"
 
 var (
 	file_grpc_reflection_v1alpha_reflection_proto_rawDescOnce sync.Once

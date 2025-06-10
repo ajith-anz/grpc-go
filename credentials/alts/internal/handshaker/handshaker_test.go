@@ -28,12 +28,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	grpc "google.golang.org/grpc"
-	core "google.golang.org/grpc/credentials/alts/internal"
-	altspb "google.golang.org/grpc/credentials/alts/internal/proto/grpc_gcp"
-	"google.golang.org/grpc/credentials/alts/internal/testutil"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/grpctest"
+	grpc "github.com/ajith-anz/grpc"
+	core "github.com/ajith-anz/grpc/credentials/alts/internal"
+	altspb "github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/ajith-anz/grpc/credentials/alts/internal/testutil"
+	"github.com/ajith-anz/grpc/internal/envconfig"
+	"github.com/ajith-anz/grpc/internal/grpctest"
 )
 
 type s struct {

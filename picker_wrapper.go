@@ -24,13 +24,13 @@ import (
 	"io"
 	"sync/atomic"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/channelz"
-	istatus "google.golang.org/grpc/internal/status"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/internal/channelz"
+	istatus "github.com/ajith-anz/grpc/internal/status"
+	"github.com/ajith-anz/grpc/internal/transport"
+	"github.com/ajith-anz/grpc/stats"
+	"github.com/ajith-anz/grpc/status"
 )
 
 // pickerGeneration stores a picker and a channel used to signal that a picker

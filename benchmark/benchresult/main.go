@@ -37,7 +37,7 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc/benchmark/stats"
+	"github.com/ajith-anz/grpc/benchmark/stats"
 )
 
 func createMap(fileName string) map[string]stats.BenchResults {

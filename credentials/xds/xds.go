@@ -28,9 +28,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc/credentials"
-	credinternal "google.golang.org/grpc/internal/credentials"
-	xdsinternal "google.golang.org/grpc/internal/credentials/xds"
+	"github.com/ajith-anz/grpc/credentials"
+	credinternal "github.com/ajith-anz/grpc/internal/credentials"
+	xdsinternal "github.com/ajith-anz/grpc/internal/credentials/xds"
 )
 
 // ClientOptions contains parameters to configure a new client-side xDS

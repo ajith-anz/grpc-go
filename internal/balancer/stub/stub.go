@@ -23,8 +23,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 // BalancerFuncs contains all balancer.Balancer functions with a preceding

@@ -24,12 +24,12 @@ import (
 	otelattribute "go.opentelemetry.io/otel/attribute"
 	otelmetric "go.opentelemetry.io/otel/metric"
 
-	"google.golang.org/grpc"
-	estats "google.golang.org/grpc/experimental/stats"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc"
+	estats "github.com/ajith-anz/grpc/experimental/stats"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc/stats"
+	"github.com/ajith-anz/grpc/status"
 )
 
 type serverMetricsHandler struct {

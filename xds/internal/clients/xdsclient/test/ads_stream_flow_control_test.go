@@ -30,13 +30,13 @@ import (
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 	v3discoverypb "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 	"github.com/google/uuid"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/testutils/xds/e2e"
-	"google.golang.org/grpc/xds/internal/clients"
-	"google.golang.org/grpc/xds/internal/clients/xdsclient"
-	"google.golang.org/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc/xds/internal/clients"
+	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient"
+	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource/version"
 )
 
 // blockingListenerWatcher implements xdsresource.ListenerWatcher. It writes to

@@ -24,7 +24,7 @@ package weight
 import (
 	"fmt"
 
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 // attributeKey is the type used as the key to store EndpointInfo in the

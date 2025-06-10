@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/reflection"
-	"google.golang.org/grpc/reflection/internal"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/reflection"
+	"github.com/ajith-anz/grpc/reflection/internal"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protodesc"
 	"google.golang.org/protobuf/reflect/protoreflect"
@@ -39,11 +39,11 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/dynamicpb"
 
-	v1reflectiongrpc "google.golang.org/grpc/reflection/grpc_reflection_v1"
-	v1reflectionpb "google.golang.org/grpc/reflection/grpc_reflection_v1"
-	v1alphareflectiongrpc "google.golang.org/grpc/reflection/grpc_reflection_v1alpha"
-	pb "google.golang.org/grpc/reflection/grpc_testing"
-	pbv3 "google.golang.org/grpc/testdata/grpc_testing_not_regenerated"
+	v1reflectiongrpc "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1"
+	v1reflectionpb "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1"
+	v1alphareflectiongrpc "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1alpha"
+	pb "github.com/ajith-anz/grpc/reflection/grpc_testing"
+	pbv3 "github.com/ajith-anz/grpc/testdata/grpc_testing_not_regenerated"
 )
 
 var (

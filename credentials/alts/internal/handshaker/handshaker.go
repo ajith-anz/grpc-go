@@ -28,15 +28,15 @@ import (
 	"time"
 
 	"golang.org/x/sync/semaphore"
-	grpc "google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	core "google.golang.org/grpc/credentials/alts/internal"
-	"google.golang.org/grpc/credentials/alts/internal/authinfo"
-	"google.golang.org/grpc/credentials/alts/internal/conn"
-	altsgrpc "google.golang.org/grpc/credentials/alts/internal/proto/grpc_gcp"
-	altspb "google.golang.org/grpc/credentials/alts/internal/proto/grpc_gcp"
-	"google.golang.org/grpc/internal/envconfig"
+	grpc "github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/credentials"
+	core "github.com/ajith-anz/grpc/credentials/alts/internal"
+	"github.com/ajith-anz/grpc/credentials/alts/internal/authinfo"
+	"github.com/ajith-anz/grpc/credentials/alts/internal/conn"
+	altsgrpc "github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcp"
+	altspb "github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/ajith-anz/grpc/internal/envconfig"
 )
 
 const (

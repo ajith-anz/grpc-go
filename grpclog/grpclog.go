@@ -26,7 +26,7 @@ package grpclog
 import (
 	"os"
 
-	"google.golang.org/grpc/grpclog/internal"
+	"github.com/ajith-anz/grpc/grpclog/internal"
 )
 
 func init() {

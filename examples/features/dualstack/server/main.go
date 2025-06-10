@@ -26,8 +26,8 @@ import (
 	"net"
 	"sync"
 
-	"google.golang.org/grpc"
-	hwpb "google.golang.org/grpc/examples/helloworld/helloworld"
+	"github.com/ajith-anz/grpc"
+	hwpb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
 )
 
 type greeterServer struct {

@@ -21,7 +21,7 @@ import (
 	"time"
 
 	v3discoverypb "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource/version"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 )

@@ -21,8 +21,8 @@ package test
 import (
 	"testing"
 
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/resolver/manual"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 // parseServiceConfig is a test helper which uses the manual resolver to parse

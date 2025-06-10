@@ -28,7 +28,7 @@ import (
 	rand "math/rand/v2"
 	"time"
 
-	grpcbackoff "google.golang.org/grpc/backoff"
+	grpcbackoff "github.com/ajith-anz/grpc/backoff"
 )
 
 // Strategy defines the methodology for backing off after a grpc connection

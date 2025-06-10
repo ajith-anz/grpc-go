@@ -22,10 +22,10 @@ import (
 	"context"
 	"testing"
 
-	"google.golang.org/grpc/credentials"
-	icredentials "google.golang.org/grpc/internal/credentials"
-	"google.golang.org/grpc/internal/xds"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/credentials"
+	icredentials "github.com/ajith-anz/grpc/internal/credentials"
+	"github.com/ajith-anz/grpc/internal/xds"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 func (s) TestIsDirectPathCluster(t *testing.T) {

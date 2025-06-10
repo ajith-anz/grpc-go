@@ -29,13 +29,13 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
-	lbgrpc "google.golang.org/grpc/balancer/grpclb/grpc_lb_v1"
-	lbpb "google.golang.org/grpc/balancer/grpclb/grpc_lb_v1"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/pretty"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc"
+	lbgrpc "github.com/ajith-anz/grpc/balancer/grpclb/grpc_lb_v1"
+	lbpb "github.com/ajith-anz/grpc/balancer/grpclb/grpc_lb_v1"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/internal/pretty"
+	"github.com/ajith-anz/grpc/status"
 )
 
 var logger = grpclog.Component("fake_grpclb")

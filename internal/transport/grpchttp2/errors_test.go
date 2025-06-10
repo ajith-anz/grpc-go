@@ -21,7 +21,7 @@ package grpchttp2
 import (
 	"testing"
 
-	"google.golang.org/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/internal/grpctest"
 )
 
 type s struct {

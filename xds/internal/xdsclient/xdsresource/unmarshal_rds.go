@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/xds/matcher"
-	"google.golang.org/grpc/xds/internal/clusterspecifier"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/internal/xds/matcher"
+	"github.com/ajith-anz/grpc/xds/internal/clusterspecifier"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 

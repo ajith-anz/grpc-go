@@ -87,7 +87,7 @@ const file_reflection_grpc_testing_proto2_proto_rawDesc = "" +
 	"$reflection/grpc_testing/proto2.proto\x12\fgrpc.testing\"&\n" +
 	"\fToBeExtended\x12\x10\n" +
 	"\x03foo\x18\x01 \x02(\x05R\x03foo*\x04\b\n" +
-	"\x10\x1fB0Z.google.golang.org/grpc/reflection/grpc_testing"
+	"\x10\x1fB0Z.github.com/ajith-anz/grpc/reflection/grpc_testing"
 
 var (
 	file_reflection_grpc_testing_proto2_proto_rawDescOnce sync.Once

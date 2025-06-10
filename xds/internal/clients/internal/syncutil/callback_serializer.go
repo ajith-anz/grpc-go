@@ -21,7 +21,7 @@ package syncutil
 import (
 	"context"
 
-	"google.golang.org/grpc/xds/internal/clients/internal/buffer"
+	"github.com/ajith-anz/grpc/xds/internal/clients/internal/buffer"
 )
 
 // CallbackSerializer provides a mechanism to schedule callbacks in a

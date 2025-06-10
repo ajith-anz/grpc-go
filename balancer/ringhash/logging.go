@@ -21,8 +21,8 @@ package ringhash
 import (
 	"fmt"
 
-	"google.golang.org/grpc/grpclog"
-	internalgrpclog "google.golang.org/grpc/internal/grpclog"
+	"github.com/ajith-anz/grpc/grpclog"
+	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
 )
 
 const prefix = "[ring-hash-lb %p] "

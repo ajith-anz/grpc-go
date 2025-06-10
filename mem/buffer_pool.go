@@ -22,7 +22,7 @@ import (
 	"sort"
 	"sync"
 
-	"google.golang.org/grpc/internal"
+	"github.com/ajith-anz/grpc/internal"
 )
 
 // BufferPool is a pool of buffers that can be shared and reused, resulting in

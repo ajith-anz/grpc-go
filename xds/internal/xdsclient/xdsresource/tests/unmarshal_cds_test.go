@@ -25,18 +25,18 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/balancer/leastrequest"
-	"google.golang.org/grpc/internal/balancer/stub"
-	"google.golang.org/grpc/internal/grpctest"
-	iringhash "google.golang.org/grpc/internal/ringhash"
-	iserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/internal/testutils/xds/e2e"
-	"google.golang.org/grpc/internal/xds/bootstrap"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/balancer/wrrlocality"
-	"google.golang.org/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc/balancer/leastrequest"
+	"github.com/ajith-anz/grpc/internal/balancer/stub"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
+	iserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
+	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/xds/internal"
+	"github.com/ajith-anz/grpc/xds/internal/balancer/wrrlocality"
+	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/structpb"
@@ -51,8 +51,8 @@ import (
 	v3roundrobinpb "github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/round_robin/v3"
 	v3wrrlocalitypb "github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/wrr_locality/v3"
 
-	_ "google.golang.org/grpc/balancer/roundrobin" // To register round_robin load balancer.
-	_ "google.golang.org/grpc/xds"                 // Register the xDS LB Registry Converters.
+	_ "github.com/ajith-anz/grpc/balancer/roundrobin" // To register round_robin load balancer.
+	_ "github.com/ajith-anz/grpc/xds"                 // Register the xDS LB Registry Converters.
 )
 
 type s struct {

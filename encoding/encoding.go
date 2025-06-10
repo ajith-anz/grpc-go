@@ -29,7 +29,7 @@ import (
 	"io"
 	"strings"
 
-	"google.golang.org/grpc/internal/grpcutil"
+	"github.com/ajith-anz/grpc/internal/grpcutil"
 )
 
 // Identity specifies the optional encoding for uncompressed streams.

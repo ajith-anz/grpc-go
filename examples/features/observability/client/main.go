@@ -26,10 +26,10 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/gcp/observability"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
+	"github.com/ajith-anz/grpc/gcp/observability"
 )
 
 const (

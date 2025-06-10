@@ -198,7 +198,7 @@ const file_reflection_grpc_testing_test_proto_rawDesc = "" +
 	"\x05query\x18\x01 \x01(\tR\x05query2\xa6\x01\n" +
 	"\rSearchService\x12C\n" +
 	"\x06Search\x12\x1b.grpc.testing.SearchRequest\x1a\x1c.grpc.testing.SearchResponse\x12P\n" +
-	"\x0fStreamingSearch\x12\x1b.grpc.testing.SearchRequest\x1a\x1c.grpc.testing.SearchResponse(\x010\x01B0Z.google.golang.org/grpc/reflection/grpc_testingb\x06proto3"
+	"\x0fStreamingSearch\x12\x1b.grpc.testing.SearchRequest\x1a\x1c.grpc.testing.SearchResponse(\x010\x01B0Z.github.com/ajith-anz/grpc/reflection/grpc_testingb\x06proto3"
 
 var (
 	file_reflection_grpc_testing_test_proto_rawDescOnce sync.Once

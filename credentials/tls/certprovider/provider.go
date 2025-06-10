@@ -31,7 +31,7 @@ import (
 	"errors"
 
 	"github.com/spiffe/go-spiffe/v2/bundle/spiffebundle"
-	"google.golang.org/grpc/internal"
+	"github.com/ajith-anz/grpc/internal"
 )
 
 func init() {

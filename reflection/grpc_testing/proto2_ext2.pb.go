@@ -114,7 +114,7 @@ const file_reflection_grpc_testing_proto2_ext2_proto_rawDesc = "" +
 	"\x10AnotherExtension\x12(\n" +
 	"\x0fwhatchamacallit\x18\x01 \x01(\x05R\x0fwhatchamacallit:.\n" +
 	"\x04frob\x12\x1a.grpc.testing.ToBeExtended\x18\x17 \x01(\tR\x04frob:N\n" +
-	"\x04nitz\x12\x1a.grpc.testing.ToBeExtended\x18\x1d \x01(\v2\x1e.grpc.testing.AnotherExtensionR\x04nitzB0Z.google.golang.org/grpc/reflection/grpc_testing"
+	"\x04nitz\x12\x1a.grpc.testing.ToBeExtended\x18\x1d \x01(\v2\x1e.grpc.testing.AnotherExtensionR\x04nitzB0Z.github.com/ajith-anz/grpc/reflection/grpc_testing"
 
 var (
 	file_reflection_grpc_testing_proto2_ext2_proto_rawDescOnce sync.Once

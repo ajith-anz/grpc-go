@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/internal"
+	"github.com/ajith-anz/grpc/internal"
 )
 
 type testLogger struct {

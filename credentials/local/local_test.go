@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/internal/grpctest"
 )
 
 const defaultTestTimeout = 10 * time.Second

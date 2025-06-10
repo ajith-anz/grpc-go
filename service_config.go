@@ -25,13 +25,13 @@ import (
 	"reflect"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/pickfirst"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/balancer/gracefulswitch"
-	internalserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/balancer/pickfirst"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/balancer/gracefulswitch"
+	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 const maxInt = int(^uint(0) >> 1)

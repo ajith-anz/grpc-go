@@ -27,21 +27,21 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/stubserver"
-	"google.golang.org/grpc/internal/testutils/roundrobin"
-	"google.golang.org/grpc/internal/testutils/stats"
-	"google.golang.org/grpc/orca"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc/internal/stubserver"
+	"github.com/ajith-anz/grpc/internal/testutils/roundrobin"
+	"github.com/ajith-anz/grpc/internal/testutils/stats"
+	"github.com/ajith-anz/grpc/orca"
+	"github.com/ajith-anz/grpc/peer"
+	"github.com/ajith-anz/grpc/resolver"
 
-	wrr "google.golang.org/grpc/balancer/weightedroundrobin"
-	iwrr "google.golang.org/grpc/balancer/weightedroundrobin/internal"
+	wrr "github.com/ajith-anz/grpc/balancer/weightedroundrobin"
+	iwrr "github.com/ajith-anz/grpc/balancer/weightedroundrobin/internal"
 
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
 )
 
 type s struct {

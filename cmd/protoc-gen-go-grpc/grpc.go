@@ -30,9 +30,9 @@ import (
 
 const (
 	contextPackage = protogen.GoImportPath("context")
-	grpcPackage    = protogen.GoImportPath("google.golang.org/grpc")
-	codesPackage   = protogen.GoImportPath("google.golang.org/grpc/codes")
-	statusPackage  = protogen.GoImportPath("google.golang.org/grpc/status")
+	grpcPackage    = protogen.GoImportPath("github.com/ajith-anz/grpc")
+	codesPackage   = protogen.GoImportPath("github.com/ajith-anz/grpc/codes")
+	statusPackage  = protogen.GoImportPath("github.com/ajith-anz/grpc/status")
 )
 
 type serviceGenerateHelperInterface interface {
@@ -211,7 +211,7 @@ func genService(gen *protogen.Plugin, file *protogen.File, g *protogen.Generated
 
 	g.P("// ", clientName, " is the client API for ", service.GoName, " service.")
 	g.P("//")
-	g.P("// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.")
+	g.P("// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc/?tab=doc#ClientConn.NewStream.")
 
 	// Copy comments from proto file.
 	genServiceComments(g, service)

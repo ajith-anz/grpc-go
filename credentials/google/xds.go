@@ -24,8 +24,8 @@ import (
 	"net/url"
 	"strings"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/xds"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/internal/xds"
 )
 
 const cfeClusterNamePrefix = "google_cfe_"

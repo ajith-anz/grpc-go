@@ -28,11 +28,11 @@ import (
 	"net/url"
 	"strings"
 
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/experimental/stats"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc/attributes"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/experimental/stats"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/serviceconfig"
 )
 
 var (

@@ -27,12 +27,12 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/status"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
-	"google.golang.org/grpc/internal/grpctest"
+	healthpb "github.com/ajith-anz/grpc/health/grpc_health_v1"
+	"github.com/ajith-anz/grpc/internal/grpctest"
 )
 
 type s struct {

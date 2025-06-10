@@ -265,7 +265,7 @@ const file_grpc_lookup_v1_rls_proto_rawDesc = "" +
 	"extensionsJ\x04\b\x01\x10\x02R\x06target2n\n" +
 	"\x12RouteLookupService\x12X\n" +
 	"\vRouteLookup\x12\".grpc.lookup.v1.RouteLookupRequest\x1a#.grpc.lookup.v1.RouteLookupResponse\"\x00BM\n" +
-	"\x11io.grpc.lookup.v1B\bRlsProtoP\x01Z,google.golang.org/grpc/lookup/grpc_lookup_v1b\x06proto3"
+	"\x11io.grpc.lookup.v1B\bRlsProtoP\x01Z,github.com/ajith-anz/grpc/lookup/grpc_lookup_v1b\x06proto3"
 
 var (
 	file_grpc_lookup_v1_rls_proto_rawDescOnce sync.Once

@@ -29,9 +29,9 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/proxyattributes"
-	"google.golang.org/grpc/resolver"
+	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc/internal/proxyattributes"
+	"github.com/ajith-anz/grpc/resolver"
 )
 
 const proxyAuthHeaderKey = "Proxy-Authorization"

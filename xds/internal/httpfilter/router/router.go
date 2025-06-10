@@ -22,8 +22,8 @@ package router
 import (
 	"fmt"
 
-	iresolver "google.golang.org/grpc/internal/resolver"
-	"google.golang.org/grpc/xds/internal/httpfilter"
+	iresolver "github.com/ajith-anz/grpc/internal/resolver"
+	"github.com/ajith-anz/grpc/xds/internal/httpfilter"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 

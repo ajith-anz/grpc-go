@@ -32,21 +32,21 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/google"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/interop"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/testdata"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc/credentials/google"
+	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc/interop"
+	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc/testdata"
 
-	_ "google.golang.org/grpc/xds/googledirectpath" // Register xDS resolver required for c2p directpath.
+	_ "github.com/ajith-anz/grpc/xds/googledirectpath" // Register xDS resolver required for c2p directpath.
 
-	testgrpc "google.golang.org/grpc/interop/grpc_testing"
-	metricspb "google.golang.org/grpc/interop/stress/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	metricspb "github.com/ajith-anz/grpc/interop/stress/grpc_testing"
 )
 
 const (

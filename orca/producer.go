@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/orca/internal"
-	"google.golang.org/grpc/status"
+	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc/balancer"
+	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc/internal/backoff"
+	"github.com/ajith-anz/grpc/orca/internal"
+	"github.com/ajith-anz/grpc/status"
 
 	v3orcapb "github.com/cncf/xds/go/xds/data/orca/v3"
 	v3orcaservicegrpc "github.com/cncf/xds/go/xds/service/orca/v3"

@@ -19,7 +19,7 @@
 package xdsclient
 
 import (
-	"google.golang.org/grpc/xds/internal/clients"
+	"github.com/ajith-anz/grpc/xds/internal/clients"
 )
 
 // Config is used to configure an xDS client. After one has been passed to the
