@@ -28,9 +28,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ajith-anz/grpc/credentials"
-	credinternal "github.com/ajith-anz/grpc/internal/credentials"
-	xdsinternal "github.com/ajith-anz/grpc/internal/credentials/xds"
+	"github.com/ajith-anz/grpc-go/credentials"
+	credinternal "github.com/ajith-anz/grpc-go/internal/credentials"
+	xdsinternal "github.com/ajith-anz/grpc-go/internal/credentials/xds"
 )
 
 // ClientOptions contains parameters to configure a new client-side xDS

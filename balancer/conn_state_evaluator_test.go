@@ -21,8 +21,8 @@ package balancer
 import (
 	"testing"
 
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
 )
 
 type s struct {

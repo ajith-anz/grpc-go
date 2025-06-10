@@ -29,8 +29,8 @@ import (
 	"strings"
 	"testing"
 
-	core "github.com/ajith-anz/grpc/credentials/alts/internal"
-	"github.com/ajith-anz/grpc/internal/grpctest"
+	core "github.com/ajith-anz/grpc-go/credentials/alts/internal"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
 )
 
 type s struct {

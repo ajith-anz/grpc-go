@@ -26,7 +26,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	lrsclientinternal "github.com/ajith-anz/grpc/xds/internal/clients/lrsclient/internal"
+	lrsclientinternal "github.com/ajith-anz/grpc-go/xds/internal/clients/lrsclient/internal"
 )
 
 var (

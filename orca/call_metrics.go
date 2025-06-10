@@ -22,10 +22,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ajith-anz/grpc"
-	grpcinternal "github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/orca/internal"
+	"github.com/ajith-anz/grpc-go"
+	grpcinternal "github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/orca/internal"
 	"google.golang.org/protobuf/proto"
 )
 

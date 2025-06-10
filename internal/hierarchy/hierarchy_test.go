@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/attributes"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/attributes"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 func TestGet(t *testing.T) {

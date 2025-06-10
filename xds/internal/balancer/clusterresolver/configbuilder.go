@@ -23,17 +23,17 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ajith-anz/grpc/internal/balancer/weight"
-	"github.com/ajith-anz/grpc/internal/hierarchy"
-	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/resolver/ringhash"
-	"github.com/ajith-anz/grpc/xds/internal"
-	"github.com/ajith-anz/grpc/xds/internal/balancer/clusterimpl"
-	"github.com/ajith-anz/grpc/xds/internal/balancer/outlierdetection"
-	"github.com/ajith-anz/grpc/xds/internal/balancer/priority"
-	"github.com/ajith-anz/grpc/xds/internal/balancer/wrrlocality"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/internal/balancer/weight"
+	"github.com/ajith-anz/grpc-go/internal/hierarchy"
+	internalserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/resolver/ringhash"
+	"github.com/ajith-anz/grpc-go/xds/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal/balancer/clusterimpl"
+	"github.com/ajith-anz/grpc-go/xds/internal/balancer/outlierdetection"
+	"github.com/ajith-anz/grpc-go/xds/internal/balancer/priority"
+	"github.com/ajith-anz/grpc-go/xds/internal/balancer/wrrlocality"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 const million = 1000000

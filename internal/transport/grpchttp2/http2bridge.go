@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
-	"github.com/ajith-anz/grpc/mem"
+	"github.com/ajith-anz/grpc-go/mem"
 )
 
 // FramerBridge adapts the net/x/http2 Framer to satisfy the grpchttp2.Framer

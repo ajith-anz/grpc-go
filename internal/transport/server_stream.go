@@ -25,9 +25,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ajith-anz/grpc/mem"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/mem"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 // ServerStream implements streaming functionality for a gRPC server.

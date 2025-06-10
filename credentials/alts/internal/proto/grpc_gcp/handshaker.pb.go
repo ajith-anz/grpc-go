@@ -1138,7 +1138,7 @@ const file_grpc_gcp_handshaker_proto_rawDesc = "" +
 	"\x03UDP\x10\x022[\n" +
 	"\x11HandshakerService\x12F\n" +
 	"\vDoHandshake\x12\x17.grpc.gcp.HandshakerReq\x1a\x18.grpc.gcp.HandshakerResp\"\x00(\x010\x01Bk\n" +
-	"\x15io.grpc.alts.internalB\x0fHandshakerProtoP\x01Z?github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcpb\x06proto3"
+	"\x15io.grpc.alts.internalB\x0fHandshakerProtoP\x01Z?github.com/ajith-anz/grpc-go/credentials/alts/internal/proto/grpc_gcpb\x06proto3"
 
 var (
 	file_grpc_gcp_handshaker_proto_rawDescOnce sync.Once

@@ -26,9 +26,9 @@
 package experimental
 
 import (
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/mem"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/mem"
 )
 
 // WithBufferPool returns a grpc.DialOption that configures the use of bufferPool

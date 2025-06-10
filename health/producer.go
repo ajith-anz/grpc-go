@@ -22,12 +22,12 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 func init() {

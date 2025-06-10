@@ -24,9 +24,9 @@ import (
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	v3rbacpb "github.com/envoyproxy/go-control-plane/envoy/config/rbac/v3"
 	v3auditloggersstreampb "github.com/envoyproxy/go-control-plane/envoy/extensions/rbac/audit_loggers/stream/v3"
-	"github.com/ajith-anz/grpc/authz/audit"
-	"github.com/ajith-anz/grpc/authz/audit/stdout"
-	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc-go/authz/audit"
+	"github.com/ajith-anz/grpc-go/authz/audit/stdout"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

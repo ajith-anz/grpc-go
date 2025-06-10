@@ -21,7 +21,7 @@ package codes
 import (
 	"strconv"
 
-	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc-go/internal"
 )
 
 func init() {

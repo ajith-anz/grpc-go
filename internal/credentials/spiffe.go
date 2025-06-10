@@ -26,7 +26,7 @@ import (
 	"crypto/x509"
 	"net/url"
 
-	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc-go/grpclog"
 )
 
 var logger = grpclog.Component("credentials")

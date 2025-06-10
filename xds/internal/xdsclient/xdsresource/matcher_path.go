@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ajith-anz/grpc/internal/grpcutil"
+	"github.com/ajith-anz/grpc-go/internal/grpcutil"
 )
 
 type pathMatcher interface {

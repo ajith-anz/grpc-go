@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
 )
 
 const (

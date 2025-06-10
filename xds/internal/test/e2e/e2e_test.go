@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
 
 	v3clusterpb "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
 	v3routepb "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	channelzpb "github.com/ajith-anz/grpc/channelz/grpc_channelz_v1"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	channelzpb "github.com/ajith-anz/grpc-go/channelz/grpc_channelz_v1"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 var (

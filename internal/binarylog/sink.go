@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	binlogpb "github.com/ajith-anz/grpc/binarylog/grpc_binarylog_v1"
+	binlogpb "github.com/ajith-anz/grpc-go/binarylog/grpc_binarylog_v1"
 	"google.golang.org/protobuf/proto"
 )
 

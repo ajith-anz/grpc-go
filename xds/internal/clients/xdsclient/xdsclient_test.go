@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/xds/internal/clients"
-	"github.com/ajith-anz/grpc/xds/internal/clients/grpctransport"
-	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/grpctransport"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/xdsclient/internal/xdsresource"
 )
 
 func (s) TestXDSClient_New(t *testing.T) {

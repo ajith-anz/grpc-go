@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ajith-anz/grpc/internal/envconfig"
+	"github.com/ajith-anz/grpc-go/internal/envconfig"
 )
 
 // CreateBootstrapFileForTesting creates a temporary file with the provided

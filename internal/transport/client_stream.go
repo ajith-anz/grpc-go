@@ -22,9 +22,9 @@ import (
 	"sync/atomic"
 
 	"golang.org/x/net/http2"
-	"github.com/ajith-anz/grpc/mem"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/mem"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 // ClientStream implements streaming functionality for a gRPC client.

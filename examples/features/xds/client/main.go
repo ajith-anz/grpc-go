@@ -27,12 +27,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	xdscreds "github.com/ajith-anz/grpc/credentials/xds"
-	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	xdscreds "github.com/ajith-anz/grpc-go/credentials/xds"
+	pb "github.com/ajith-anz/grpc-go/examples/helloworld/helloworld"
 
-	_ "github.com/ajith-anz/grpc/xds" // To install the xds resolvers and balancers.
+	_ "github.com/ajith-anz/grpc-go/xds" // To install the xds resolvers and balancers.
 )
 
 var (

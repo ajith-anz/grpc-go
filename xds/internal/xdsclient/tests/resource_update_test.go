@@ -29,13 +29,13 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/uuid"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/fakeserver"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/xds/internal"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/fakeserver"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/xds/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 	"google.golang.org/protobuf/types/known/anypb"
@@ -51,7 +51,7 @@ import (
 	v3discoverypb "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 	v3statuspb "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
 
-	_ "github.com/ajith-anz/grpc/xds/internal/httpfilter/router" // Register the router filter.
+	_ "github.com/ajith-anz/grpc-go/xds/internal/httpfilter/router" // Register the router filter.
 )
 
 // startFakeManagementServer starts a fake xDS management server and registers a

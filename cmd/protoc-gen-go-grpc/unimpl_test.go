@@ -21,8 +21,8 @@ package main_test
 import (
 	"testing"
 
-	"github.com/ajith-anz/grpc"
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	"github.com/ajith-anz/grpc-go"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 type unimplEmbeddedByPointer struct {

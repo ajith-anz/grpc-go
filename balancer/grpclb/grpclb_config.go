@@ -21,9 +21,9 @@ package grpclb
 import (
 	"encoding/json"
 
-	"github.com/ajith-anz/grpc/balancer/pickfirst"
-	"github.com/ajith-anz/grpc/balancer/roundrobin"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go/balancer/pickfirst"
+	"github.com/ajith-anz/grpc-go/balancer/roundrobin"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 )
 
 const (

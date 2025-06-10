@@ -17,7 +17,7 @@
  */
 
 // Package matcher contains types that need to be shared between code under
-// github.com/ajith-anz/grpc/xds/... and the rest of gRPC.
+// github.com/ajith-anz/grpc-go/xds/... and the rest of gRPC.
 package matcher
 
 import (
@@ -27,7 +27,7 @@ import (
 	"strings"
 
 	v3matcherpb "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
-	"github.com/ajith-anz/grpc/internal/grpcutil"
+	"github.com/ajith-anz/grpc-go/internal/grpcutil"
 )
 
 // StringMatcher contains match criteria for matching a string, and is an

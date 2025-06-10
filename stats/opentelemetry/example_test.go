@@ -17,10 +17,10 @@
 package opentelemetry_test
 
 import (
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/stats"
-	"github.com/ajith-anz/grpc/stats/opentelemetry"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/stats"
+	"github.com/ajith-anz/grpc-go/stats/opentelemetry"
 
 	"go.opentelemetry.io/otel/sdk/metric"
 )

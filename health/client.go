@@ -24,13 +24,13 @@ import (
 	"io"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/connectivity"
-	healthpb "github.com/ajith-anz/grpc/health/grpc_health_v1"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/backoff"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	healthpb "github.com/ajith-anz/grpc-go/health/grpc_health_v1"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/backoff"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 var (

@@ -19,8 +19,8 @@
 package xds
 
 import (
-	"github.com/ajith-anz/grpc/attributes"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/attributes"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 // handshakeClusterNameKey is the type used as the key to store cluster name in

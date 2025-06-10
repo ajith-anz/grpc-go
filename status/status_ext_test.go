@@ -27,19 +27,19 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/stubserver"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/stubserver"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/status"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/protoadapt"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
-	tpb "github.com/ajith-anz/grpc/testdata/grpc_testing_not_regenerated"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	tpb "github.com/ajith-anz/grpc-go/testdata/grpc_testing_not_regenerated"
 )
 
 const defaultTestTimeout = 10 * time.Second

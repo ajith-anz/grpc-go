@@ -27,13 +27,13 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/peer"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/peer"
+	"github.com/ajith-anz/grpc-go/resolver"
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 var logger = grpclog.Component("testutils-roundrobin")

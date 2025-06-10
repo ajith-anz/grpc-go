@@ -21,8 +21,8 @@ package lrsclient
 import (
 	"fmt"
 
-	"github.com/ajith-anz/grpc/grpclog"
-	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	internalgrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
 )
 
 var logger = grpclog.Component("xds")

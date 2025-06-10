@@ -30,17 +30,17 @@ import (
 	"time"
 
 	"golang.org/x/net/http/httpproxy"
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/resolver/delegatingresolver"
-	"github.com/ajith-anz/grpc/internal/stubserver"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/testutils/proxyserver"
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/resolver/manual"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/resolver/delegatingresolver"
+	"github.com/ajith-anz/grpc-go/internal/stubserver"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/testutils/proxyserver"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/resolver/manual"
 )
 
 const defaultTestTimeout = 10 * time.Second

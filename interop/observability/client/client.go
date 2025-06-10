@@ -31,12 +31,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/gcp/observability"
-	"github.com/ajith-anz/grpc/interop"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/gcp/observability"
+	"github.com/ajith-anz/grpc-go/interop"
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 var (

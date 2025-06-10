@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ajith-anz/grpc/grpclog"
-	igrpclog "github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/xds/internal/clients"
-	"github.com/ajith-anz/grpc/xds/internal/clients/internal"
-	"github.com/ajith-anz/grpc/xds/internal/clients/internal/backoff"
-	"github.com/ajith-anz/grpc/xds/internal/clients/internal/syncutil"
-	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	igrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/internal/backoff"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/internal/syncutil"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/xdsclient/internal/xdsresource"
 )
 
 const (

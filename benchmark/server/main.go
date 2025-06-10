@@ -39,10 +39,10 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/benchmark"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal/syscall"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/benchmark"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/syscall"
 )
 
 var (

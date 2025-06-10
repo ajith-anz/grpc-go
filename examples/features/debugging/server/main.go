@@ -27,10 +27,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/channelz/service"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/channelz/service"
 
-	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
+	pb "github.com/ajith-anz/grpc-go/examples/helloworld/helloworld"
 )
 
 var (

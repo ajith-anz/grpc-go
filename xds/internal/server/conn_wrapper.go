@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
-	xdsinternal "github.com/ajith-anz/grpc/internal/credentials/xds"
-	"github.com/ajith-anz/grpc/internal/transport"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider"
+	xdsinternal "github.com/ajith-anz/grpc-go/internal/credentials/xds"
+	"github.com/ajith-anz/grpc-go/internal/transport"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 // connWrapper is a thin wrapper around a net.Conn returned by Accept(). It

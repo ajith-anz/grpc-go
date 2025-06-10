@@ -21,7 +21,7 @@ package xdsclient
 import (
 	"fmt"
 
-	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/xdsclient/internal/xdsresource"
 )
 
 // wrappingWatcher is a wrapper around an xdsresource.ResourceWatcher that adds

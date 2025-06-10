@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	iserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/internal/testutils/stats"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	iserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/internal/testutils/stats"
 )
 
 type s struct {

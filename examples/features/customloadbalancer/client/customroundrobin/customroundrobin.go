@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	_ "github.com/ajith-anz/grpc" // to register pick_first
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/endpointsharding"
-	"github.com/ajith-anz/grpc/balancer/pickfirst/pickfirstleaf"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	_ "github.com/ajith-anz/grpc-go" // to register pick_first
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/endpointsharding"
+	"github.com/ajith-anz/grpc-go/balancer/pickfirst/pickfirstleaf"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 )
 
 func init() {

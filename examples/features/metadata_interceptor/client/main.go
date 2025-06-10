@@ -28,11 +28,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/metadata"
 
-	pb "github.com/ajith-anz/grpc/examples/features/proto/echo"
+	pb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
 )
 
 var addr = flag.String("addr", "localhost:50051", "the address to connect to")

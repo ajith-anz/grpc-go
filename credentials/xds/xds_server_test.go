@@ -30,10 +30,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
-	xdsinternal "github.com/ajith-anz/grpc/internal/credentials/xds"
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider"
+	xdsinternal "github.com/ajith-anz/grpc-go/internal/credentials/xds"
+	"github.com/ajith-anz/grpc-go/testdata"
 )
 
 func makeClientTLSConfig(t *testing.T, mTLS bool) *tls.Config {

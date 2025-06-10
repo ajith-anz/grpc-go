@@ -31,22 +31,22 @@ import (
 	"github.com/envoyproxy/go-control-plane/pkg/wellknown"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/uuid"
-	"github.com/ajith-anz/grpc/codes"
-	estats "github.com/ajith-anz/grpc/experimental/stats"
-	"github.com/ajith-anz/grpc/internal"
-	iresolver "github.com/ajith-anz/grpc/internal/resolver"
-	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/serviceconfig"
-	"github.com/ajith-anz/grpc/xds/internal/balancer/clustermanager"
-	"github.com/ajith-anz/grpc/xds/internal/httpfilter"
-	rinternal "github.com/ajith-anz/grpc/xds/internal/resolver/internal"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/ajith-anz/grpc-go/codes"
+	estats "github.com/ajith-anz/grpc-go/experimental/stats"
+	"github.com/ajith-anz/grpc-go/internal"
+	iresolver "github.com/ajith-anz/grpc-go/internal/resolver"
+	iringhash "github.com/ajith-anz/grpc-go/internal/ringhash"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
+	"github.com/ajith-anz/grpc-go/xds/internal/balancer/clustermanager"
+	"github.com/ajith-anz/grpc-go/xds/internal/httpfilter"
+	rinternal "github.com/ajith-anz/grpc-go/xds/internal/resolver/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource/version"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/durationpb"
@@ -61,8 +61,8 @@ import (
 	v3httppb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 	v3discoverypb "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 
-	_ "github.com/ajith-anz/grpc/xds/internal/balancer/cdsbalancer" // Register the cds LB policy
-	_ "github.com/ajith-anz/grpc/xds/internal/httpfilter/router"    // Register the router filter
+	_ "github.com/ajith-anz/grpc-go/xds/internal/balancer/cdsbalancer" // Register the cds LB policy
+	_ "github.com/ajith-anz/grpc-go/xds/internal/httpfilter/router"    // Register the router filter
 )
 
 // Tests the case where xDS client creation is expected to fail because the

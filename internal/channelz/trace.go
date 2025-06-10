@@ -24,7 +24,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc-go/grpclog"
 )
 
 const (

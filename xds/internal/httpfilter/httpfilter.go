@@ -21,7 +21,7 @@
 package httpfilter
 
 import (
-	iresolver "github.com/ajith-anz/grpc/internal/resolver"
+	iresolver "github.com/ajith-anz/grpc-go/internal/resolver"
 	"google.golang.org/protobuf/proto"
 )
 

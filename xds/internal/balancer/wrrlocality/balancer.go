@@ -27,13 +27,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/weightedtarget"
-	"github.com/ajith-anz/grpc/internal/grpclog"
-	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/serviceconfig"
-	"github.com/ajith-anz/grpc/xds/internal"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/weightedtarget"
+	"github.com/ajith-anz/grpc-go/internal/grpclog"
+	internalserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
+	"github.com/ajith-anz/grpc-go/xds/internal"
 )
 
 // Name is the name of wrr_locality balancer.

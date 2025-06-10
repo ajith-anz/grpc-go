@@ -25,13 +25,13 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/pickfirst"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/balancer/gracefulswitch"
-	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/pickfirst"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/balancer/gracefulswitch"
+	internalserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 )
 
 const maxInt = int(^uint(0) >> 1)

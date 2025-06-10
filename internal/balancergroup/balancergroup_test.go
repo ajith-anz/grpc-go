@@ -24,17 +24,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/pickfirst"
-	"github.com/ajith-anz/grpc/balancer/roundrobin"
-	"github.com/ajith-anz/grpc/balancer/weightedtarget/weightedaggregator"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/balancer/stub"
-	"github.com/ajith-anz/grpc/internal/channelz"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/pickfirst"
+	"github.com/ajith-anz/grpc-go/balancer/roundrobin"
+	"github.com/ajith-anz/grpc-go/balancer/weightedtarget/weightedaggregator"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/balancer/stub"
+	"github.com/ajith-anz/grpc-go/internal/channelz"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 const (

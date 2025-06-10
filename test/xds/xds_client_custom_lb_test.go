@@ -24,16 +24,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	_ "github.com/ajith-anz/grpc/balancer/leastrequest"       // To register least_request
-	_ "github.com/ajith-anz/grpc/balancer/weightedroundrobin" // To register weighted_round_robin
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/stubserver"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/testutils/roundrobin"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e/setup"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go"
+	_ "github.com/ajith-anz/grpc-go/balancer/leastrequest"       // To register least_request
+	_ "github.com/ajith-anz/grpc-go/balancer/weightedroundrobin" // To register weighted_round_robin
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/stubserver"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/testutils/roundrobin"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e/setup"
+	"github.com/ajith-anz/grpc-go/resolver"
 
 	v3xdsxdstypepb "github.com/cncf/xds/go/xds/type/v3"
 	v3clusterpb "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
@@ -45,7 +45,7 @@ import (
 	v3leastrequestpb "github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/least_request/v3"
 	v3roundrobinpb "github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/round_robin/v3"
 	v3wrrlocalitypb "github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/wrr_locality/v3"
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/structpb"

@@ -21,12 +21,12 @@ package testutils
 import (
 	"context"
 
-	"github.com/ajith-anz/grpc/stats"
+	"github.com/ajith-anz/grpc-go/stats"
 )
 
 // StubStatsHandler is a stats handler that is easy to customize within
 // individual test cases. It is a stubbable implementation of
-// github.com/ajith-anz/grpc/stats.Handler for testing purposes.
+// github.com/ajith-anz/grpc-go/stats.Handler for testing purposes.
 type StubStatsHandler struct {
 	TagRPCF     func(ctx context.Context, info *stats.RPCTagInfo) context.Context
 	HandleRPCF  func(ctx context.Context, info stats.RPCStats)

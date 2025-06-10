@@ -25,17 +25,17 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/pickfirst"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/balancer/stub"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/hierarchy"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/pickfirst"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/balancer/stub"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/hierarchy"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 type s struct {

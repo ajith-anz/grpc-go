@@ -23,10 +23,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ajith-anz/grpc/balancer"
-	lbpb "github.com/ajith-anz/grpc/balancer/grpclb/grpc_lb_v1"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/balancer"
+	lbpb "github.com/ajith-anz/grpc-go/balancer/grpclb/grpc_lb_v1"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 // rpcStats is same as lbpb.ClientStats, except that numCallsDropped is a map

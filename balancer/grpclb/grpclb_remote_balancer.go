@@ -26,19 +26,19 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/backoff"
-	imetadata "github.com/ajith-anz/grpc/internal/metadata"
-	"github.com/ajith-anz/grpc/keepalive"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/backoff"
+	imetadata "github.com/ajith-anz/grpc-go/internal/metadata"
+	"github.com/ajith-anz/grpc-go/keepalive"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/resolver"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	lbpb "github.com/ajith-anz/grpc/balancer/grpclb/grpc_lb_v1"
+	lbpb "github.com/ajith-anz/grpc-go/balancer/grpclb/grpc_lb_v1"
 )
 
 func serverListEqual(a, b []*lbpb.Server) bool {

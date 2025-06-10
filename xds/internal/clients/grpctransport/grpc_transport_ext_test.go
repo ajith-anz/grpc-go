@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/credentials/local"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/xds/internal/clients"
-	"github.com/ajith-anz/grpc/xds/internal/clients/grpctransport"
-	"github.com/ajith-anz/grpc/xds/internal/clients/internal/testutils"
-	"github.com/ajith-anz/grpc/xds/internal/clients/internal/testutils/e2e"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/credentials/local"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/grpctransport"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/internal/testutils"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/internal/testutils/e2e"
 )
 
 const (

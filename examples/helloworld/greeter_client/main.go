@@ -25,9 +25,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	pb "github.com/ajith-anz/grpc-go/examples/helloworld/helloworld"
 )
 
 const (

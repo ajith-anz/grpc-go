@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/connectivity"
-	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	iringhash "github.com/ajith-anz/grpc-go/internal/ringhash"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/metadata"
 )
 
 var (

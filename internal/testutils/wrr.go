@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ajith-anz/grpc/internal/wrr"
+	"github.com/ajith-anz/grpc-go/internal/wrr"
 )
 
 // testWRR is a deterministic WRR implementation.

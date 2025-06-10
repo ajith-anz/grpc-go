@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/attributes"
-	"github.com/ajith-anz/grpc/internal/balancer/weight"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/attributes"
+	"github.com/ajith-anz/grpc-go/internal/balancer/weight"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 type s struct {

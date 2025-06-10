@@ -26,10 +26,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	ecpb "github.com/ajith-anz/grpc/examples/features/proto/echo"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	ecpb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 const (
@@ -85,8 +85,8 @@ func main() {
 }
 
 // Following is an example name resolver. It includes a
-// ResolverBuilder(https://godoc.org/github.com/ajith-anz/grpc/resolver#Builder)
-// and a Resolver(https://godoc.org/github.com/ajith-anz/grpc/resolver#Resolver).
+// ResolverBuilder(https://godoc.org/github.com/ajith-anz/grpc-go/resolver#Builder)
+// and a Resolver(https://godoc.org/github.com/ajith-anz/grpc-go/resolver#Resolver).
 //
 // A ResolverBuilder is registered for a scheme (in this example, "example" is
 // the scheme). When a ClientConn is created for this scheme, the
@@ -95,7 +95,7 @@ func main() {
 // target, and send updates to the ClientConn.
 
 // exampleResolverBuilder is a
-// ResolverBuilder(https://godoc.org/github.com/ajith-anz/grpc/resolver#Builder).
+// ResolverBuilder(https://godoc.org/github.com/ajith-anz/grpc-go/resolver#Builder).
 type exampleResolverBuilder struct{}
 
 func (*exampleResolverBuilder) Build(target resolver.Target, cc resolver.ClientConn, _ resolver.BuildOptions) (resolver.Resolver, error) {
@@ -112,7 +112,7 @@ func (*exampleResolverBuilder) Build(target resolver.Target, cc resolver.ClientC
 func (*exampleResolverBuilder) Scheme() string { return exampleScheme }
 
 // exampleResolver is a
-// Resolver(https://godoc.org/github.com/ajith-anz/grpc/resolver#Resolver).
+// Resolver(https://godoc.org/github.com/ajith-anz/grpc-go/resolver#Resolver).
 type exampleResolver struct {
 	target     resolver.Target
 	cc         resolver.ClientConn

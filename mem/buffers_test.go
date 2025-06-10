@@ -22,9 +22,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/mem"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/mem"
 )
 
 type s struct {

@@ -33,12 +33,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/sys/unix"
-	"github.com/ajith-anz/grpc/internal/channelz"
-	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/channelz"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
 	"google.golang.org/protobuf/testing/protocmp"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	channelzpb "github.com/ajith-anz/grpc/channelz/grpc_channelz_v1"
+	channelzpb "github.com/ajith-anz/grpc-go/channelz/grpc_channelz_v1"
 )
 
 func (s) TestGetSocketOptions(t *testing.T) {

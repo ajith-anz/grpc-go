@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	spb "google.golang.org/genproto/googleapis/rpc/status"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/status"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

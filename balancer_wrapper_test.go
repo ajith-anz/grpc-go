@@ -24,10 +24,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/balancer/stub"
-	"github.com/ajith-anz/grpc/internal/grpcsync"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/balancer/stub"
+	"github.com/ajith-anz/grpc-go/internal/grpcsync"
 )
 
 // TestBalancer_StateListenerBeforeConnect tries to stimulate a race between

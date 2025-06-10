@@ -25,10 +25,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/resolver"
-	"github.com/ajith-anz/grpc/internal/xds/rbac"
-	"github.com/ajith-anz/grpc/xds/internal/httpfilter"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/resolver"
+	"github.com/ajith-anz/grpc-go/internal/xds/rbac"
+	"github.com/ajith-anz/grpc-go/xds/internal/httpfilter"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 

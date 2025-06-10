@@ -23,10 +23,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/internal/grpcutil"
-	iresolver "github.com/ajith-anz/grpc/internal/resolver"
-	"github.com/ajith-anz/grpc/internal/xds/matcher"
-	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc-go/internal/grpcutil"
+	iresolver "github.com/ajith-anz/grpc-go/internal/resolver"
+	"github.com/ajith-anz/grpc-go/internal/xds/matcher"
+	"github.com/ajith-anz/grpc-go/metadata"
 	"google.golang.org/protobuf/proto"
 )
 

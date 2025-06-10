@@ -25,10 +25,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/grpclog"
-	metricspb "github.com/ajith-anz/grpc/interop/stress/grpc_testing"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	metricspb "github.com/ajith-anz/grpc-go/interop/stress/grpc_testing"
 )
 
 var (

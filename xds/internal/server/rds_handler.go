@@ -21,8 +21,8 @@ package server
 import (
 	"sync"
 
-	igrpclog "github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	igrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 // rdsHandler handles any RDS queries that need to be started for a given server

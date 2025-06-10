@@ -22,10 +22,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/serviceconfig"
-	"github.com/ajith-anz/grpc/xds/internal/balancer/outlierdetection"
+	internalserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
+	"github.com/ajith-anz/grpc-go/xds/internal/balancer/outlierdetection"
 )
 
 // DiscoveryMechanismType is the type of discovery mechanism.

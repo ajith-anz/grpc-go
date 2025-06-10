@@ -141,7 +141,7 @@ const file_examples_features_proto_echo_echo_proto_rawDesc = "" +
 	"\tUnaryEcho\x12\x1f.grpc.examples.echo.EchoRequest\x1a .grpc.examples.echo.EchoResponse\"\x00\x12\\\n" +
 	"\x13ServerStreamingEcho\x12\x1f.grpc.examples.echo.EchoRequest\x1a .grpc.examples.echo.EchoResponse\"\x000\x01\x12\\\n" +
 	"\x13ClientStreamingEcho\x12\x1f.grpc.examples.echo.EchoRequest\x1a .grpc.examples.echo.EchoResponse\"\x00(\x01\x12e\n" +
-	"\x1aBidirectionalStreamingEcho\x12\x1f.grpc.examples.echo.EchoRequest\x1a .grpc.examples.echo.EchoResponse\"\x00(\x010\x01B5Z3github.com/ajith-anz/grpc/examples/features/proto/echob\x06proto3"
+	"\x1aBidirectionalStreamingEcho\x12\x1f.grpc.examples.echo.EchoRequest\x1a .grpc.examples.echo.EchoResponse\"\x00(\x010\x01B5Z3github.com/ajith-anz/grpc-go/examples/features/proto/echob\x06proto3"
 
 var (
 	file_examples_features_proto_echo_echo_proto_rawDescOnce sync.Once

@@ -23,9 +23,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/peer"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/peer"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 // AuthInfoFromContext extracts the alts.AuthInfo object from the given context,

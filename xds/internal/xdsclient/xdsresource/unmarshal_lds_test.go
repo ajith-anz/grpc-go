@@ -25,11 +25,11 @@ import (
 
 	v2xdspb "github.com/envoyproxy/go-control-plane/envoy/api/v2"
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/internal/pretty"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/xds/internal/httpfilter"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/ajith-anz/grpc-go/internal/pretty"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/xds/internal/httpfilter"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource/version"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/durationpb"
@@ -48,8 +48,8 @@ import (
 	v3discoverypb "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 	v3matcherpb "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
 
-	_ "github.com/ajith-anz/grpc/xds/internal/httpfilter/rbac"   // Register the RBAC HTTP filter.
-	_ "github.com/ajith-anz/grpc/xds/internal/httpfilter/router" // Register the router filter.
+	_ "github.com/ajith-anz/grpc-go/xds/internal/httpfilter/rbac"   // Register the RBAC HTTP filter.
+	_ "github.com/ajith-anz/grpc-go/xds/internal/httpfilter/router" // Register the router filter.
 )
 
 func (s) TestUnmarshalListener_ClientSide(t *testing.T) {

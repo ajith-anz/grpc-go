@@ -22,7 +22,7 @@ package loadstore
 import (
 	"sync"
 
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/load"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/load"
 )
 
 // NewWrapper creates a Wrapper.

@@ -26,15 +26,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	_ "github.com/ajith-anz/grpc/examples/features/customloadbalancer/client/customroundrobin" // To register custom_round_robin.
-	pb "github.com/ajith-anz/grpc/examples/features/proto/echo"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/peer"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/resolver/manual"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	_ "github.com/ajith-anz/grpc-go/examples/features/customloadbalancer/client/customroundrobin" // To register custom_round_robin.
+	pb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/peer"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/resolver/manual"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 )
 
 var (

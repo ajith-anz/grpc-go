@@ -24,11 +24,11 @@ package roundrobin
 import (
 	"fmt"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/endpointsharding"
-	"github.com/ajith-anz/grpc/balancer/pickfirst/pickfirstleaf"
-	"github.com/ajith-anz/grpc/grpclog"
-	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/endpointsharding"
+	"github.com/ajith-anz/grpc-go/balancer/pickfirst/pickfirstleaf"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	internalgrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
 )
 
 // Name is the name of round_robin balancer.

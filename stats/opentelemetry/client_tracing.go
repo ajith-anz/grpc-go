@@ -23,11 +23,11 @@ import (
 
 	otelcodes "go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
-	"github.com/ajith-anz/grpc"
-	grpccodes "github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/stats"
-	otelinternaltracing "github.com/ajith-anz/grpc/stats/opentelemetry/internal/tracing"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	grpccodes "github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/stats"
+	otelinternaltracing "github.com/ajith-anz/grpc-go/stats/opentelemetry/internal/tracing"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 const (

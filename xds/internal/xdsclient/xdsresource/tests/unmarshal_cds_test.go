@@ -25,18 +25,18 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/ajith-anz/grpc/balancer/leastrequest"
-	"github.com/ajith-anz/grpc/internal/balancer/stub"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
-	iserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/serviceconfig"
-	"github.com/ajith-anz/grpc/xds/internal"
-	"github.com/ajith-anz/grpc/xds/internal/balancer/wrrlocality"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/balancer/leastrequest"
+	"github.com/ajith-anz/grpc-go/internal/balancer/stub"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	iringhash "github.com/ajith-anz/grpc-go/internal/ringhash"
+	iserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
+	"github.com/ajith-anz/grpc-go/xds/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal/balancer/wrrlocality"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/structpb"
@@ -51,8 +51,8 @@ import (
 	v3roundrobinpb "github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/round_robin/v3"
 	v3wrrlocalitypb "github.com/envoyproxy/go-control-plane/envoy/extensions/load_balancing_policies/wrr_locality/v3"
 
-	_ "github.com/ajith-anz/grpc/balancer/roundrobin" // To register round_robin load balancer.
-	_ "github.com/ajith-anz/grpc/xds"                 // Register the xDS LB Registry Converters.
+	_ "github.com/ajith-anz/grpc-go/balancer/roundrobin" // To register round_robin load balancer.
+	_ "github.com/ajith-anz/grpc-go/xds"                 // Register the xDS LB Registry Converters.
 )
 
 type s struct {

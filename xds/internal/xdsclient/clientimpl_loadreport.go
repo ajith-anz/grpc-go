@@ -18,8 +18,8 @@
 package xdsclient
 
 import (
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/load"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/load"
 )
 
 // ReportLoad starts a load reporting stream to the given server. All load

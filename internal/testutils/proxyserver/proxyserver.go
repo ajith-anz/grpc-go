@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
 )
 
 // ProxyServer represents a test proxy server.

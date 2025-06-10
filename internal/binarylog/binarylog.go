@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal/grpcutil"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/grpcutil"
 )
 
 var grpclogLogger = grpclog.Component("binarylog")

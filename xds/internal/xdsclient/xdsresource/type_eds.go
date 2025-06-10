@@ -18,7 +18,7 @@
 package xdsresource
 
 import (
-	"github.com/ajith-anz/grpc/xds/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

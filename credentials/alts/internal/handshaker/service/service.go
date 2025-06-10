@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	grpc "github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/envconfig"
-	"github.com/ajith-anz/grpc/keepalive"
+	grpc "github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/envconfig"
+	"github.com/ajith-anz/grpc-go/keepalive"
 )
 
 var (

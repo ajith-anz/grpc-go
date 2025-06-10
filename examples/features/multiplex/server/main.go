@@ -27,10 +27,10 @@ import (
 	"log"
 	"net"
 
-	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc-go"
 
-	ecpb "github.com/ajith-anz/grpc/examples/features/proto/echo"
-	hwpb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
+	ecpb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
+	hwpb "github.com/ajith-anz/grpc-go/examples/helloworld/helloworld"
 )
 
 var port = flag.Int("port", 50051, "the port to serve on")

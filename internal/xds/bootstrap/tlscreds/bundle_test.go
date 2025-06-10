@@ -30,16 +30,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
-	"github.com/ajith-anz/grpc/internal/credentials/spiffe"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/stubserver"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc-go/internal/credentials/spiffe"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/stubserver"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/testdata"
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 const defaultTestTimeout = 5 * time.Second

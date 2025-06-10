@@ -40,8 +40,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/grpclog"
 )
 
 const (

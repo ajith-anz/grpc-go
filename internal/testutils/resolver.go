@@ -19,10 +19,10 @@
 package testutils
 
 import (
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/pretty"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/pretty"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 )
 
 // Logger wraps the logging methods from testing.T.

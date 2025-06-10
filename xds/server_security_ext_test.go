@@ -27,16 +27,16 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	xdscreds "github.com/ajith-anz/grpc/credentials/xds"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/xds"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	xdscreds "github.com/ajith-anz/grpc-go/credentials/xds"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/xds"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
@@ -45,8 +45,8 @@ import (
 	v3httppb "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 	v3tlspb "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 	v3discoverypb "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 // Tests the case where the bootstrap configuration contains no certificate

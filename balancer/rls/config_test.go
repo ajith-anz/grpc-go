@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/ajith-anz/grpc/balancer/grpclb"               // grpclb for config parsing.
-	_ "github.com/ajith-anz/grpc/internal/resolver/passthrough" // passthrough resolver.
+	_ "github.com/ajith-anz/grpc-go/balancer/grpclb"               // grpclb for config parsing.
+	_ "github.com/ajith-anz/grpc-go/internal/resolver/passthrough" // passthrough resolver.
 )
 
 // testEqual reports whether the lbCfgs a and b are equal. This is to be used

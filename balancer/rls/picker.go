@@ -25,15 +25,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/rls/internal/keys"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/connectivity"
-	estats "github.com/ajith-anz/grpc/experimental/stats"
-	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
-	rlspb "github.com/ajith-anz/grpc/internal/proto/grpc_lookup_v1"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/rls/internal/keys"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	estats "github.com/ajith-anz/grpc-go/experimental/stats"
+	internalgrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
+	rlspb "github.com/ajith-anz/grpc-go/internal/proto/grpc_lookup_v1"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 var (

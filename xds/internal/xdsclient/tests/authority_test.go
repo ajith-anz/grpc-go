@@ -27,12 +27,12 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/uuid"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	xdstestutils "github.com/ajith-anz/grpc/xds/internal/testutils"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	xdstestutils "github.com/ajith-anz/grpc-go/xds/internal/testutils"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 
 	v3clusterpb "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
 )

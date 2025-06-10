@@ -23,13 +23,13 @@ import (
 	"net"
 	"testing"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/transport"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/transport"
+	"github.com/ajith-anz/grpc-go/status"
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 func (s) TestHTTPHeaderFrameErrorHandlingHTTPMode(t *testing.T) {

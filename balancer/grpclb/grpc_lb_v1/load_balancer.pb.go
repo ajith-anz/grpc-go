@@ -682,7 +682,7 @@ const file_grpc_lb_v1_load_balancer_proto_rawDesc = "" +
 	"\x04drop\x18\x04 \x01(\bR\x04dropJ\x04\b\x05\x10\x062b\n" +
 	"\fLoadBalancer\x12R\n" +
 	"\vBalanceLoad\x12\x1e.grpc.lb.v1.LoadBalanceRequest\x1a\x1f.grpc.lb.v1.LoadBalanceResponse(\x010\x01BW\n" +
-	"\rio.grpc.lb.v1B\x11LoadBalancerProtoP\x01Z1github.com/ajith-anz/grpc/balancer/grpclb/grpc_lb_v1b\x06proto3"
+	"\rio.grpc.lb.v1B\x11LoadBalancerProtoP\x01Z1github.com/ajith-anz/grpc-go/balancer/grpclb/grpc_lb_v1b\x06proto3"
 
 var (
 	file_grpc_lb_v1_load_balancer_proto_rawDescOnce sync.Once

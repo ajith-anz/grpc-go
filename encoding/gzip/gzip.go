@@ -32,7 +32,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ajith-anz/grpc/encoding"
+	"github.com/ajith-anz/grpc-go/encoding"
 )
 
 // Name is the name registered for the gzip compressor.

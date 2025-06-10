@@ -26,11 +26,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider/pemfile"
-	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
-	"github.com/ajith-anz/grpc/security/advancedtls"
-	"github.com/ajith-anz/grpc/security/advancedtls/testdata"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider/pemfile"
+	pb "github.com/ajith-anz/grpc-go/examples/helloworld/helloworld"
+	"github.com/ajith-anz/grpc-go/security/advancedtls"
+	"github.com/ajith-anz/grpc-go/security/advancedtls/testdata"
 )
 
 var address = "localhost:50051"

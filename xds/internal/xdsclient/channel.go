@@ -23,16 +23,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal/backoff"
-	igrpclog "github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/internal/grpcsync"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/load"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport/ads"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport/lrs"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/backoff"
+	igrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/grpcsync"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/load"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/transport"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/transport/ads"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/transport/lrs"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 // xdsChannelEventHandler wraps callbacks used to notify the xDS client about

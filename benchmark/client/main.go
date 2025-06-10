@@ -48,15 +48,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/benchmark"
-	"github.com/ajith-anz/grpc/benchmark/stats"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal/syscall"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/benchmark"
+	"github.com/ajith-anz/grpc-go/benchmark/stats"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/syscall"
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 var (

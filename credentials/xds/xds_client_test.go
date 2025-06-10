@@ -32,15 +32,15 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
-	icredentials "github.com/ajith-anz/grpc/internal/credentials"
-	xdsinternal "github.com/ajith-anz/grpc/internal/credentials/xds"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/xds/matcher"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider"
+	icredentials "github.com/ajith-anz/grpc-go/internal/credentials"
+	xdsinternal "github.com/ajith-anz/grpc-go/internal/credentials/xds"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/xds/matcher"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/testdata"
 )
 
 const (

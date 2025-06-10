@@ -17,7 +17,7 @@
  */
 
 // Package stubserver is a stubbable implementation of
-// github.com/ajith-anz/grpc/interop/grpc_testing for testing purposes.
+// github.com/ajith-anz/grpc-go/interop/grpc_testing for testing purposes.
 package stubserver
 
 import (
@@ -29,15 +29,15 @@ import (
 	"time"
 
 	"golang.org/x/net/http2"
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/resolver/manual"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/resolver/manual"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 // GRPCServer is an interface that groups methods implemented by a grpc.Server

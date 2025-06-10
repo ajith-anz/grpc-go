@@ -24,12 +24,12 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/xds/internal/clients/grpctransport"
-	"github.com/ajith-anz/grpc/xds/internal/clients/internal/testutils"
-	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/grpctransport"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/internal/testutils"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/xdsclient/internal/xdsresource"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource/version"
 
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"

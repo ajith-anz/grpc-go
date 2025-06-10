@@ -32,11 +32,11 @@ import (
 	"time"
 
 	"github.com/spiffe/go-spiffe/v2/bundle/spiffebundle"
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider/pemfile"
-	"github.com/ajith-anz/grpc/internal/credentials/spiffe"
-	"github.com/ajith-anz/grpc/internal/envconfig"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider/pemfile"
+	"github.com/ajith-anz/grpc-go/internal/credentials/spiffe"
+	"github.com/ajith-anz/grpc-go/internal/envconfig"
 )
 
 // bundle is an implementation of credentials.Bundle which implements mTLS

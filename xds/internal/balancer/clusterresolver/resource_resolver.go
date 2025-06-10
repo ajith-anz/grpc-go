@@ -22,10 +22,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/internal/grpcsync"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/grpcsync"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 // resourceUpdate is a combined update from all the resources, in the order of

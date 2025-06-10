@@ -22,9 +22,9 @@ import (
 	"strings"
 
 	"go.opentelemetry.io/otel/trace"
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/stats"
-	otelinternaltracing "github.com/ajith-anz/grpc/stats/opentelemetry/internal/tracing"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/stats"
+	otelinternaltracing "github.com/ajith-anz/grpc-go/stats/opentelemetry/internal/tracing"
 )
 
 type serverTracingHandler struct {

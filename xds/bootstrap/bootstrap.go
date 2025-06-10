@@ -28,7 +28,7 @@ package bootstrap
 import (
 	"encoding/json"
 
-	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc-go/credentials"
 )
 
 // registry is a map from credential type name to Credential builder.

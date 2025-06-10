@@ -27,11 +27,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc-go"
 
-	echogrpc "github.com/ajith-anz/grpc/examples/features/proto/echo"
-	echopb "github.com/ajith-anz/grpc/examples/features/proto/echo"
-	"github.com/ajith-anz/grpc/examples/features/stats_monitoring/statshandler"
+	echogrpc "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
+	echopb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
+	"github.com/ajith-anz/grpc-go/examples/features/stats_monitoring/statshandler"
 )
 
 var port = flag.Int("port", 50051, "the port to serve on")

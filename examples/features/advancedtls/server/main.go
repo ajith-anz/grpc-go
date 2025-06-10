@@ -29,13 +29,13 @@ import (
 	"path/filepath"
 	"time"
 
-	pb "github.com/ajith-anz/grpc/examples/features/proto/echo"
+	pb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider/pemfile"
-	"github.com/ajith-anz/grpc/security/advancedtls"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider/pemfile"
+	"github.com/ajith-anz/grpc-go/security/advancedtls"
 )
 
 type server struct {

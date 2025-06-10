@@ -31,16 +31,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/internal/channelz"
-	"github.com/ajith-anz/grpc/keepalive"
-	"github.com/ajith-anz/grpc/mem"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/peer"
-	"github.com/ajith-anz/grpc/stats"
-	"github.com/ajith-anz/grpc/status"
-	"github.com/ajith-anz/grpc/tap"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/internal/channelz"
+	"github.com/ajith-anz/grpc-go/keepalive"
+	"github.com/ajith-anz/grpc-go/mem"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/peer"
+	"github.com/ajith-anz/grpc-go/stats"
+	"github.com/ajith-anz/grpc-go/status"
+	"github.com/ajith-anz/grpc-go/tap"
 )
 
 const logLevel = 2

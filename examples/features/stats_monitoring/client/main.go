@@ -25,12 +25,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
 
-	echogrpc "github.com/ajith-anz/grpc/examples/features/proto/echo"
-	echopb "github.com/ajith-anz/grpc/examples/features/proto/echo"
-	"github.com/ajith-anz/grpc/examples/features/stats_monitoring/statshandler"
+	echogrpc "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
+	echopb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
+	"github.com/ajith-anz/grpc-go/examples/features/stats_monitoring/statshandler"
 )
 
 var addr = flag.String("addr", "localhost:50051", "the address to connect to")

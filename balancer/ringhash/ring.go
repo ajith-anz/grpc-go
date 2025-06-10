@@ -24,8 +24,8 @@ import (
 	"strconv"
 
 	xxhash "github.com/cespare/xxhash/v2"
-	"github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 type ring struct {

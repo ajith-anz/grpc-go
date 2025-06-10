@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 const subConnCacheTime = time.Second * 10

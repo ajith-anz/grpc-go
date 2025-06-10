@@ -23,4 +23,4 @@
 // imported directly by users.
 package passthrough
 
-import _ "github.com/ajith-anz/grpc/internal/resolver/passthrough" // import for side effects after package was moved
+import _ "github.com/ajith-anz/grpc-go/internal/resolver/passthrough" // import for side effects after package was moved

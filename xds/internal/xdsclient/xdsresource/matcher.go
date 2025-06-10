@@ -22,10 +22,10 @@ import (
 	rand "math/rand/v2"
 	"strings"
 
-	"github.com/ajith-anz/grpc/internal/grpcutil"
-	iresolver "github.com/ajith-anz/grpc/internal/resolver"
-	"github.com/ajith-anz/grpc/internal/xds/matcher"
-	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc-go/internal/grpcutil"
+	iresolver "github.com/ajith-anz/grpc-go/internal/resolver"
+	"github.com/ajith-anz/grpc-go/internal/xds/matcher"
+	"github.com/ajith-anz/grpc-go/metadata"
 )
 
 // RouteToMatcher converts a route to a Matcher to match incoming RPC's against.

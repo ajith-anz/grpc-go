@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal/backoff"
-	"github.com/ajith-anz/grpc/orca/internal"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal/backoff"
+	"github.com/ajith-anz/grpc-go/orca/internal"
+	"github.com/ajith-anz/grpc-go/status"
 
 	v3orcapb "github.com/cncf/xds/go/xds/data/orca/v3"
 	v3orcaservicegrpc "github.com/cncf/xds/go/xds/service/orca/v3"

@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc-go/credentials"
 )
 
 const testCredsBuilderName = "test_creds"

@@ -23,10 +23,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ajith-anz/grpc/encoding"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/mem"
-	pb "github.com/ajith-anz/grpc/test/codec_perf"
+	"github.com/ajith-anz/grpc-go/encoding"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/mem"
+	pb "github.com/ajith-anz/grpc-go/test/codec_perf"
 )
 
 func marshalAndUnmarshal(t *testing.T, codec encoding.CodecV2, expectedBody []byte) {

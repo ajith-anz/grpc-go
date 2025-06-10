@@ -19,8 +19,8 @@
 package bootstrap
 
 import (
-	"github.com/ajith-anz/grpc/grpclog"
-	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	internalgrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
 )
 
 const prefix = "[xds-bootstrap] "

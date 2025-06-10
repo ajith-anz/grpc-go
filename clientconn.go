@@ -30,27 +30,27 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/base"
-	"github.com/ajith-anz/grpc/balancer/pickfirst"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/channelz"
-	"github.com/ajith-anz/grpc/internal/grpcsync"
-	"github.com/ajith-anz/grpc/internal/idle"
-	iresolver "github.com/ajith-anz/grpc/internal/resolver"
-	"github.com/ajith-anz/grpc/internal/stats"
-	"github.com/ajith-anz/grpc/internal/transport"
-	"github.com/ajith-anz/grpc/keepalive"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/serviceconfig"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/base"
+	"github.com/ajith-anz/grpc-go/balancer/pickfirst"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/channelz"
+	"github.com/ajith-anz/grpc-go/internal/grpcsync"
+	"github.com/ajith-anz/grpc-go/internal/idle"
+	iresolver "github.com/ajith-anz/grpc-go/internal/resolver"
+	"github.com/ajith-anz/grpc-go/internal/stats"
+	"github.com/ajith-anz/grpc-go/internal/transport"
+	"github.com/ajith-anz/grpc-go/keepalive"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
+	"github.com/ajith-anz/grpc-go/status"
 
-	_ "github.com/ajith-anz/grpc/balancer/roundrobin"           // To register roundrobin.
-	_ "github.com/ajith-anz/grpc/internal/resolver/passthrough" // To register passthrough resolver.
-	_ "github.com/ajith-anz/grpc/internal/resolver/unix"        // To register unix resolver.
-	_ "github.com/ajith-anz/grpc/resolver/dns"                  // To register dns resolver.
+	_ "github.com/ajith-anz/grpc-go/balancer/roundrobin"           // To register roundrobin.
+	_ "github.com/ajith-anz/grpc-go/internal/resolver/passthrough" // To register passthrough resolver.
+	_ "github.com/ajith-anz/grpc-go/internal/resolver/unix"        // To register unix resolver.
+	_ "github.com/ajith-anz/grpc-go/resolver/dns"                  // To register dns resolver.
 )
 
 const (

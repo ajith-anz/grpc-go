@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/internal/balancer/weight"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/internal/balancer/weight"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	iringhash "github.com/ajith-anz/grpc-go/internal/ringhash"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 const (

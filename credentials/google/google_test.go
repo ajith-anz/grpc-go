@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/credentials"
-	icredentials "github.com/ajith-anz/grpc/internal/credentials"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/xds"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/credentials"
+	icredentials "github.com/ajith-anz/grpc-go/internal/credentials"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/xds"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 var defaultTestTimeout = 10 * time.Second

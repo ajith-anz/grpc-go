@@ -36,23 +36,23 @@ import (
 	"time"
 
 	"golang.org/x/oauth2"
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/credentials/alts"
-	"github.com/ajith-anz/grpc/credentials/google"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/credentials/oauth"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/interop"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/credentials/alts"
+	"github.com/ajith-anz/grpc-go/credentials/google"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/credentials/oauth"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/interop"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/testdata"
 
-	_ "github.com/ajith-anz/grpc/balancer/grpclb"    // Register the grpclb load balancing policy.
-	_ "github.com/ajith-anz/grpc/balancer/rls"       // Register the RLS load balancing policy.
-	"github.com/ajith-anz/grpc/xds/googledirectpath" // Register xDS resolver required for c2p directpath.
+	_ "github.com/ajith-anz/grpc-go/balancer/grpclb"    // Register the grpclb load balancing policy.
+	_ "github.com/ajith-anz/grpc-go/balancer/rls"       // Register the RLS load balancing policy.
+	"github.com/ajith-anz/grpc-go/xds/googledirectpath" // Register xDS resolver required for c2p directpath.
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 const (
@@ -125,7 +125,7 @@ const (
 )
 
 // Parses the --additional_metadata flag and returns metadata to send on each RPC,
-// formatted as per https://pkg.go.dev/github.com/ajith-anz/grpc/metadata#Pairs.
+// formatted as per https://pkg.go.dev/github.com/ajith-anz/grpc-go/metadata#Pairs.
 // Allow any character but semicolons in values. If the flag is empty, return a nil map.
 func parseAdditionalMetadataFlag() []string {
 	if len(*additionalMetadata) == 0 {

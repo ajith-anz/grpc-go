@@ -29,9 +29,9 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/proxyattributes"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/proxyattributes"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 const proxyAuthHeaderKey = "Proxy-Authorization"

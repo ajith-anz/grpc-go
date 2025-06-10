@@ -31,17 +31,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/pickfirst/pickfirstleaf"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/internal/balancer/gracefulswitch"
-	"github.com/ajith-anz/grpc/internal/buffer"
-	"github.com/ajith-anz/grpc/internal/channelz"
-	"github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/internal/grpcsync"
-	iserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/pickfirst/pickfirstleaf"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/internal/balancer/gracefulswitch"
+	"github.com/ajith-anz/grpc-go/internal/buffer"
+	"github.com/ajith-anz/grpc-go/internal/channelz"
+	"github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/grpcsync"
+	iserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 )
 
 // Globals to stub out in tests.

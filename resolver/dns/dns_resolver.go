@@ -23,8 +23,8 @@ package dns
 import (
 	"time"
 
-	"github.com/ajith-anz/grpc/internal/resolver/dns"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/internal/resolver/dns"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 // SetResolvingTimeout sets the maximum duration for DNS resolution requests.

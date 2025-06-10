@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/internal/transport"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/internal/transport"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 const goroutineCount = 5

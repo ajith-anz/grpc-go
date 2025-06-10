@@ -36,9 +36,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
-	credinternal "github.com/ajith-anz/grpc/internal/credentials"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider"
+	credinternal "github.com/ajith-anz/grpc-go/internal/credentials"
 )
 
 // CertificateChains represents a slice of certificate chains, each consisting

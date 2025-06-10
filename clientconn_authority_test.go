@@ -23,9 +23,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/testdata"
 )
 
 func (s) TestClientConnAuthority(t *testing.T) {

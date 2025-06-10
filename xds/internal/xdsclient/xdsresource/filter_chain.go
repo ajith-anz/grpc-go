@@ -23,11 +23,11 @@ import (
 	"net"
 	"sync/atomic"
 
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal/resolver"
-	"github.com/ajith-anz/grpc/status"
-	"github.com/ajith-anz/grpc/xds/internal/httpfilter"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal/resolver"
+	"github.com/ajith-anz/grpc-go/status"
+	"github.com/ajith-anz/grpc-go/xds/internal/httpfilter"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource/version"
 	"google.golang.org/protobuf/proto"
 
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"

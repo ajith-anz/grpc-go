@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	estats "github.com/ajith-anz/grpc/experimental/stats"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/grpctest"
+	estats "github.com/ajith-anz/grpc-go/experimental/stats"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
 
 	"go.opentelemetry.io/otel/attribute"
 	otelmetric "go.opentelemetry.io/otel/sdk/metric"

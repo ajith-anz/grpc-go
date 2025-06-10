@@ -29,10 +29,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/examples/data"
-	ecpb "github.com/ajith-anz/grpc/examples/features/proto/echo"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/examples/data"
+	ecpb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
 )
 
 var addr = flag.String("addr", "localhost:50051", "the address to connect to")

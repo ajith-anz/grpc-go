@@ -29,13 +29,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	lbgrpc "github.com/ajith-anz/grpc/balancer/grpclb/grpc_lb_v1"
-	lbpb "github.com/ajith-anz/grpc/balancer/grpclb/grpc_lb_v1"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal/pretty"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	lbgrpc "github.com/ajith-anz/grpc-go/balancer/grpclb/grpc_lb_v1"
+	lbpb "github.com/ajith-anz/grpc-go/balancer/grpclb/grpc_lb_v1"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/pretty"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 var logger = grpclog.Component("fake_grpclb")

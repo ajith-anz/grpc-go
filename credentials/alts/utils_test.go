@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/codes"
-	altspb "github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcp"
-	"github.com/ajith-anz/grpc/peer"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/codes"
+	altspb "github.com/ajith-anz/grpc-go/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/ajith-anz/grpc-go/peer"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 const (

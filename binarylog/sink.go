@@ -26,8 +26,8 @@ import (
 	"fmt"
 	"os"
 
-	binlogpb "github.com/ajith-anz/grpc/binarylog/grpc_binarylog_v1"
-	iblog "github.com/ajith-anz/grpc/internal/binarylog"
+	binlogpb "github.com/ajith-anz/grpc-go/binarylog/grpc_binarylog_v1"
+	iblog "github.com/ajith-anz/grpc-go/internal/binarylog"
 )
 
 // SetSink sets the destination for the binary log entries.

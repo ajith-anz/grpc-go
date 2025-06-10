@@ -26,16 +26,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/admin"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/admin"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/status"
 
 	v3statusgrpc "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
 	v3statuspb "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
-	channelzgrpc "github.com/ajith-anz/grpc/channelz/grpc_channelz_v1"
-	channelzpb "github.com/ajith-anz/grpc/channelz/grpc_channelz_v1"
+	channelzgrpc "github.com/ajith-anz/grpc-go/channelz/grpc_channelz_v1"
+	channelzpb "github.com/ajith-anz/grpc-go/channelz/grpc_channelz_v1"
 )
 
 const (

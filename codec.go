@@ -19,9 +19,9 @@
 package grpc
 
 import (
-	"github.com/ajith-anz/grpc/encoding"
-	_ "github.com/ajith-anz/grpc/encoding/proto" // to register the Codec for "proto"
-	"github.com/ajith-anz/grpc/mem"
+	"github.com/ajith-anz/grpc-go/encoding"
+	_ "github.com/ajith-anz/grpc-go/encoding/proto" // to register the Codec for "proto"
+	"github.com/ajith-anz/grpc-go/mem"
 )
 
 // baseCodec captures the new encoding.CodecV2 interface without the Name

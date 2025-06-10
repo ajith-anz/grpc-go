@@ -18,7 +18,7 @@
 package internal
 
 import (
-	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc-go/metadata"
 )
 
 // SetPluginOption sets the plugin option on Options.

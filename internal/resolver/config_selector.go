@@ -23,9 +23,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 // ConfigSelector controls what configuration to use for every RPC.

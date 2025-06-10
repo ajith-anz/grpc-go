@@ -20,7 +20,7 @@
 //
 // To install grpclb balancer, import this package as:
 //
-//	import _ "github.com/ajith-anz/grpc/balancer/grpclb"
+//	import _ "github.com/ajith-anz/grpc-go/balancer/grpclb"
 package grpclb
 
 import (
@@ -30,23 +30,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/base"
-	grpclbstate "github.com/ajith-anz/grpc/balancer/grpclb/state"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/backoff"
-	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/internal/pretty"
-	"github.com/ajith-anz/grpc/internal/resolver/dns"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/resolver/manual"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/base"
+	grpclbstate "github.com/ajith-anz/grpc-go/balancer/grpclb/state"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/backoff"
+	internalgrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/pretty"
+	"github.com/ajith-anz/grpc-go/internal/resolver/dns"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/resolver/manual"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	lbpb "github.com/ajith-anz/grpc/balancer/grpclb/grpc_lb_v1"
+	lbpb "github.com/ajith-anz/grpc-go/balancer/grpclb/grpc_lb_v1"
 )
 
 const (

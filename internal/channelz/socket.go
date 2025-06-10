@@ -23,7 +23,7 @@ import (
 	"net"
 	"sync/atomic"
 
-	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc-go/credentials"
 )
 
 // SocketMetrics defines the struct that the implementor of Socket interface

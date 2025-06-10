@@ -24,7 +24,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	lrsclientinternal "github.com/ajith-anz/grpc/xds/internal/clients/lrsclient/internal"
+	lrsclientinternal "github.com/ajith-anz/grpc-go/xds/internal/clients/lrsclient/internal"
 )
 
 // A LoadStore aggregates loads for multiple clusters and services that are

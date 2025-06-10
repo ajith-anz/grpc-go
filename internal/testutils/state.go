@@ -22,7 +22,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc-go/connectivity"
 )
 
 // A StateChanger reports state changes, e.g. a grpc.ClientConn.

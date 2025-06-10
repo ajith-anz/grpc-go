@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal"
-	ointernal "github.com/ajith-anz/grpc/orca/internal"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal"
+	ointernal "github.com/ajith-anz/grpc-go/orca/internal"
+	"github.com/ajith-anz/grpc-go/status"
 
 	v3orcaservicegrpc "github.com/cncf/xds/go/xds/service/orca/v3"
 	v3orcaservicepb "github.com/cncf/xds/go/xds/service/orca/v3"

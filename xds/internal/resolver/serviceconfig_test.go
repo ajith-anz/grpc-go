@@ -26,13 +26,13 @@ import (
 
 	xxhash "github.com/cespare/xxhash/v2"
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/grpcutil"
-	iresolver "github.com/ajith-anz/grpc/internal/resolver"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/metadata"
-	_ "github.com/ajith-anz/grpc/xds/internal/balancer/cdsbalancer" // To parse LB config
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/grpcutil"
+	iresolver "github.com/ajith-anz/grpc-go/internal/resolver"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/metadata"
+	_ "github.com/ajith-anz/grpc-go/xds/internal/balancer/cdsbalancer" // To parse LB config
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 var defaultTestTimeout = 10 * time.Second

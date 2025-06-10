@@ -28,13 +28,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider/pemfile"
-	"github.com/ajith-anz/grpc/keepalive"
-	"github.com/ajith-anz/grpc/security/advancedtls"
-	"github.com/ajith-anz/grpc/security/advancedtls/testdata"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider/pemfile"
+	"github.com/ajith-anz/grpc-go/keepalive"
+	"github.com/ajith-anz/grpc-go/security/advancedtls"
+	"github.com/ajith-anz/grpc-go/security/advancedtls/testdata"
 
-	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
+	pb "github.com/ajith-anz/grpc-go/examples/helloworld/helloworld"
 )
 
 var port = ":50051"

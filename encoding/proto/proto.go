@@ -23,8 +23,8 @@ package proto
 import (
 	"fmt"
 
-	"github.com/ajith-anz/grpc/encoding"
-	"github.com/ajith-anz/grpc/mem"
+	"github.com/ajith-anz/grpc-go/encoding"
+	"github.com/ajith-anz/grpc-go/mem"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/protoadapt"
 )

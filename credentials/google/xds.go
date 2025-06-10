@@ -24,8 +24,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/internal/xds"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/internal/xds"
 )
 
 const cfeClusterNamePrefix = "google_cfe_"

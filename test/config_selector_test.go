@@ -26,16 +26,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/ajith-anz/grpc/codes"
-	iresolver "github.com/ajith-anz/grpc/internal/resolver"
-	"github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/internal/stubserver"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/resolver/manual"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/codes"
+	iresolver "github.com/ajith-anz/grpc-go/internal/resolver"
+	"github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/internal/stubserver"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/resolver/manual"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 type funcConfigSelector struct {

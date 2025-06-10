@@ -18,7 +18,7 @@
 
 package balancer
 
-import "github.com/ajith-anz/grpc/connectivity"
+import "github.com/ajith-anz/grpc-go/connectivity"
 
 // ConnectivityStateEvaluator takes the connectivity states of multiple SubConns
 // and returns one aggregated connectivity state.

@@ -26,14 +26,14 @@ import (
 	"go.opentelemetry.io/otel/sdk/metric"
 	"go.opentelemetry.io/otel/sdk/metric/metricdata"
 	"go.opentelemetry.io/otel/sdk/metric/metricdata/metricdatatest"
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	rlspb "github.com/ajith-anz/grpc/internal/proto/grpc_lookup_v1"
-	"github.com/ajith-anz/grpc/internal/stubserver"
-	rlstest "github.com/ajith-anz/grpc/internal/testutils/rls"
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
-	"github.com/ajith-anz/grpc/stats/opentelemetry"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	rlspb "github.com/ajith-anz/grpc-go/internal/proto/grpc_lookup_v1"
+	"github.com/ajith-anz/grpc-go/internal/stubserver"
+	rlstest "github.com/ajith-anz/grpc-go/internal/testutils/rls"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	"github.com/ajith-anz/grpc-go/stats/opentelemetry"
 )
 
 func metricsDataFromReader(ctx context.Context, reader *metric.ManualReader) map[string]metricdata.Metrics {

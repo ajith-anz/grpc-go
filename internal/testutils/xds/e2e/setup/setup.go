@@ -23,10 +23,10 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/resolver"
-	_ "github.com/ajith-anz/grpc/xds" // Register the xds_resolver.
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/resolver"
+	_ "github.com/ajith-anz/grpc-go/xds" // Register the xds_resolver.
 )
 
 // ManagementServerAndResolver sets up an xDS management server, creates

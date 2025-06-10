@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc-go/grpclog"
 )
 
 var once sync.Once

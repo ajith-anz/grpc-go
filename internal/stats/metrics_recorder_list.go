@@ -19,8 +19,8 @@ package stats
 import (
 	"fmt"
 
-	estats "github.com/ajith-anz/grpc/experimental/stats"
-	"github.com/ajith-anz/grpc/stats"
+	estats "github.com/ajith-anz/grpc-go/experimental/stats"
+	"github.com/ajith-anz/grpc-go/stats"
 )
 
 // MetricsRecorderList forwards Record calls to all of its metricsRecorders.

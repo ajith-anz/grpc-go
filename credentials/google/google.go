@@ -23,11 +23,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/credentials/alts"
-	"github.com/ajith-anz/grpc/credentials/oauth"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/credentials/alts"
+	"github.com/ajith-anz/grpc-go/credentials/oauth"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal"
 )
 
 const defaultCloudPlatformScope = "https://www.googleapis.com/auth/cloud-platform"

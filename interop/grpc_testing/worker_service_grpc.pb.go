@@ -25,9 +25,9 @@ package grpc_testing
 
 import (
 	context "context"
-	grpc "github.com/ajith-anz/grpc"
-	codes "github.com/ajith-anz/grpc/codes"
-	status "github.com/ajith-anz/grpc/status"
+	grpc "github.com/ajith-anz/grpc-go"
+	codes "github.com/ajith-anz/grpc-go/codes"
+	status "github.com/ajith-anz/grpc-go/status"
 )
 
 // This is a compile-time assertion to ensure that this generated file
@@ -44,7 +44,7 @@ const (
 
 // WorkerServiceClient is the client API for WorkerService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc-go/?tab=doc#ClientConn.NewStream.
 type WorkerServiceClient interface {
 	// Start server with specified workload.
 	// First request sent specifies the ServerConfig followed by ServerStatus

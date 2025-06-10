@@ -29,10 +29,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/status"
-	"github.com/ajith-anz/grpc/xds/internal/clients/internal/testutils"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/status"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/internal/testutils"
 	"google.golang.org/protobuf/proto"
 
 	v3discoverygrpc "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"

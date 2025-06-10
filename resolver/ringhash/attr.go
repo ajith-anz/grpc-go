@@ -21,7 +21,7 @@
 package ringhash
 
 import (
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 type hashKeyType string

@@ -125,7 +125,7 @@ const file_reflection_grpc_testing_proto2_ext_proto_rawDesc = "" +
 	"\awhatzit\x18\x01 \x01(\x05R\awhatzit:,\n" +
 	"\x03foo\x12\x1a.grpc.testing.ToBeExtended\x18\r \x01(\x05R\x03foo:E\n" +
 	"\x03bar\x12\x1a.grpc.testing.ToBeExtended\x18\x11 \x01(\v2\x17.grpc.testing.ExtensionR\x03bar:I\n" +
-	"\x03baz\x12\x1a.grpc.testing.ToBeExtended\x18\x13 \x01(\v2\x1b.grpc.testing.SearchRequestR\x03bazB0Z.github.com/ajith-anz/grpc/reflection/grpc_testing"
+	"\x03baz\x12\x1a.grpc.testing.ToBeExtended\x18\x13 \x01(\v2\x1b.grpc.testing.SearchRequestR\x03bazB0Z.github.com/ajith-anz/grpc-go/reflection/grpc_testing"
 
 var (
 	file_reflection_grpc_testing_proto2_ext_proto_rawDescOnce sync.Once

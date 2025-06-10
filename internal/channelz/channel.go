@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc-go/connectivity"
 )
 
 // Channel represents a channel within channelz, which includes metrics and

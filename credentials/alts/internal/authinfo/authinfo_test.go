@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	altspb "github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcp"
-	"github.com/ajith-anz/grpc/internal/grpctest"
+	altspb "github.com/ajith-anz/grpc-go/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
 )
 
 type s struct {

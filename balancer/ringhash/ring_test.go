@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	xxhash "github.com/cespare/xxhash/v2"
-	"github.com/ajith-anz/grpc/internal/balancer/weight"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/internal/balancer/weight"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 var testEndpoints []resolver.Endpoint

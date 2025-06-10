@@ -19,11 +19,11 @@
 package reflection
 
 import (
-	"github.com/ajith-anz/grpc/reflection/internal"
+	"github.com/ajith-anz/grpc-go/reflection/internal"
 
-	v1reflectiongrpc "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1"
-	v1reflectionpb "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1"
-	v1alphareflectiongrpc "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1alpha"
+	v1reflectiongrpc "github.com/ajith-anz/grpc-go/reflection/grpc_reflection_v1"
+	v1reflectionpb "github.com/ajith-anz/grpc-go/reflection/grpc_reflection_v1"
+	v1alphareflectiongrpc "github.com/ajith-anz/grpc-go/reflection/grpc_reflection_v1alpha"
 )
 
 // asV1Alpha returns an implementation of the v1alpha version of the reflection

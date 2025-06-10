@@ -23,7 +23,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc-go/credentials"
 )
 
 const (

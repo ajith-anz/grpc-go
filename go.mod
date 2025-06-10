@@ -1,4 +1,4 @@
-module github.com/ajith-anz/grpc
+module github.com/ajith-anz/grpc-go
 
 go 1.23.0
 
@@ -41,4 +41,5 @@ require (
 	golang.org/x/crypto v0.38.0 // indirect
 	golang.org/x/text v0.25.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250528174236-200df99c418a // indirect
+	google.golang.org/grpc v1.71.0 // indirect
 )

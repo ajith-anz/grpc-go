@@ -393,7 +393,7 @@ const file_profiling_proto_service_proto_rawDesc = "" +
 	"\bmetadata\x18\x03 \x01(\fR\bmetadata2\xe1\x01\n" +
 	"\tProfiling\x12]\n" +
 	"\x06Enable\x12(.grpc.go.profiling.v1alpha.EnableRequest\x1a).grpc.go.profiling.v1alpha.EnableResponse\x12u\n" +
-	"\x0eGetStreamStats\x120.grpc.go.profiling.v1alpha.GetStreamStatsRequest\x1a1.grpc.go.profiling.v1alpha.GetStreamStatsResponseB(Z&github.com/ajith-anz/grpc/profiling/protob\x06proto3"
+	"\x0eGetStreamStats\x120.grpc.go.profiling.v1alpha.GetStreamStatsRequest\x1a1.grpc.go.profiling.v1alpha.GetStreamStatsResponseB(Z&github.com/ajith-anz/grpc-go/profiling/protob\x06proto3"
 
 var (
 	file_profiling_proto_service_proto_rawDescOnce sync.Once

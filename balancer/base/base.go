@@ -31,8 +31,8 @@
 package base
 
 import (
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 // PickerBuilder creates balancer.Picker.

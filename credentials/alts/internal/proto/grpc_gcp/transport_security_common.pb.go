@@ -307,7 +307,7 @@ const file_grpc_gcp_transport_security_common_proto_rawDesc = "" +
 	"\rSECURITY_NONE\x10\x00\x12\x12\n" +
 	"\x0eINTEGRITY_ONLY\x10\x01\x12\x19\n" +
 	"\x15INTEGRITY_AND_PRIVACY\x10\x02Bx\n" +
-	"\x15io.grpc.alts.internalB\x1cTransportSecurityCommonProtoP\x01Z?github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcpb\x06proto3"
+	"\x15io.grpc.alts.internalB\x1cTransportSecurityCommonProtoP\x01Z?github.com/ajith-anz/grpc-go/credentials/alts/internal/proto/grpc_gcpb\x06proto3"
 
 var (
 	file_grpc_gcp_transport_security_common_proto_rawDescOnce sync.Once

@@ -25,9 +25,9 @@ package grpc_testing
 
 import (
 	context "context"
-	grpc "github.com/ajith-anz/grpc"
-	codes "github.com/ajith-anz/grpc/codes"
-	status "github.com/ajith-anz/grpc/status"
+	grpc "github.com/ajith-anz/grpc-go"
+	codes "github.com/ajith-anz/grpc-go/codes"
+	status "github.com/ajith-anz/grpc-go/status"
 )
 
 // This is a compile-time assertion to ensure that this generated file
@@ -48,7 +48,7 @@ const (
 
 // TestServiceClient is the client API for TestService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc-go/?tab=doc#ClientConn.NewStream.
 //
 // A simple service to test the various types of RPCs and experiment with
 // performance with various types of payload.
@@ -436,7 +436,7 @@ const (
 
 // UnimplementedServiceClient is the client API for UnimplementedService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc-go/?tab=doc#ClientConn.NewStream.
 //
 // A simple service NOT implemented at servers so clients can test for
 // that case.
@@ -547,7 +547,7 @@ const (
 
 // ReconnectServiceClient is the client API for ReconnectService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc-go/?tab=doc#ClientConn.NewStream.
 //
 // A service used to control reconnect server.
 type ReconnectServiceClient interface {
@@ -691,7 +691,7 @@ const (
 
 // LoadBalancerStatsServiceClient is the client API for LoadBalancerStatsService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc-go/?tab=doc#ClientConn.NewStream.
 //
 // A service used to obtain stats for verifying LB behavior.
 type LoadBalancerStatsServiceClient interface {
@@ -841,7 +841,7 @@ const (
 
 // HookServiceClient is the client API for HookService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc-go/?tab=doc#ClientConn.NewStream.
 //
 // Hook service. Used to keep Kubernetes from shutting the pod down.
 type HookServiceClient interface {
@@ -1031,7 +1031,7 @@ const (
 
 // XdsUpdateHealthServiceClient is the client API for XdsUpdateHealthService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc-go/?tab=doc#ClientConn.NewStream.
 //
 // A service to remotely control health status of an xDS test server.
 type XdsUpdateHealthServiceClient interface {
@@ -1212,7 +1212,7 @@ const (
 
 // XdsUpdateClientConfigureServiceClient is the client API for XdsUpdateClientConfigureService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc-go/?tab=doc#ClientConn.NewStream.
 //
 // A service to dynamically update the configuration of an xDS test client.
 type XdsUpdateClientConfigureServiceClient interface {

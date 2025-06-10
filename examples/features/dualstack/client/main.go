@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	hwpb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
-	"github.com/ajith-anz/grpc/peer"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	hwpb "github.com/ajith-anz/grpc-go/examples/helloworld/helloworld"
+	"github.com/ajith-anz/grpc-go/peer"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 const (

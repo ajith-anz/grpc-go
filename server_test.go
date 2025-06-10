@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/internal/transport"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/internal/transport"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 type emptyServiceServer any

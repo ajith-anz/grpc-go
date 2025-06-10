@@ -25,8 +25,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/ajith-anz/grpc/authz/audit"
-	"github.com/ajith-anz/grpc/grpclog"
+	"github.com/ajith-anz/grpc-go/authz/audit"
+	"github.com/ajith-anz/grpc-go/grpclog"
 )
 
 var grpcLogger = grpclog.Component("authz-audit")

@@ -24,10 +24,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/grpclog"
-	externalserviceconfig "github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	externalserviceconfig "github.com/ajith-anz/grpc-go/serviceconfig"
 )
 
 var logger = grpclog.Component("core")

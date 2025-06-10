@@ -19,7 +19,7 @@
 package lrsclient
 
 import (
-	"github.com/ajith-anz/grpc/xds/internal/clients"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients"
 )
 
 // Config is used to configure an LRS client. After one has been passed to the

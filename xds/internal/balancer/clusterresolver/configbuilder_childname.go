@@ -20,8 +20,8 @@ package clusterresolver
 import (
 	"fmt"
 
-	"github.com/ajith-anz/grpc/xds/internal"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/xds/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 // nameGenerator generates a child name for a list of priorities (each priority

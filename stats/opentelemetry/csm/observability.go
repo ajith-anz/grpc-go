@@ -22,10 +22,10 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/stats/opentelemetry"
-	otelinternal "github.com/ajith-anz/grpc/stats/opentelemetry/internal"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/stats/opentelemetry"
+	otelinternal "github.com/ajith-anz/grpc-go/stats/opentelemetry/internal"
 )
 
 // EnableObservability sets up CSM Observability for the binary globally.

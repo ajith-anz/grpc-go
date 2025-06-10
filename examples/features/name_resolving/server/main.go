@@ -26,9 +26,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc-go"
 
-	pb "github.com/ajith-anz/grpc/examples/features/proto/echo"
+	pb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
 )
 
 const addr = "localhost:50051"

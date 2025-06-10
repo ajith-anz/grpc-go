@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 type mdKeyType string

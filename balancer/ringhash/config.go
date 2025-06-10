@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ajith-anz/grpc/internal/envconfig"
-	"github.com/ajith-anz/grpc/internal/metadata"
-	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
+	"github.com/ajith-anz/grpc-go/internal/envconfig"
+	"github.com/ajith-anz/grpc-go/internal/metadata"
+	iringhash "github.com/ajith-anz/grpc-go/internal/ringhash"
 )
 
 const (

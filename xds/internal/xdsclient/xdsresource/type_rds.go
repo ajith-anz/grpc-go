@@ -21,10 +21,10 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal/xds/matcher"
-	"github.com/ajith-anz/grpc/xds/internal/clusterspecifier"
-	"github.com/ajith-anz/grpc/xds/internal/httpfilter"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal/xds/matcher"
+	"github.com/ajith-anz/grpc-go/xds/internal/clusterspecifier"
+	"github.com/ajith-anz/grpc-go/xds/internal/httpfilter"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

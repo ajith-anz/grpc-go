@@ -32,7 +32,7 @@ import (
 	"fmt"
 
 	spb "google.golang.org/genproto/googleapis/rpc/status"
-	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc-go/codes"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/protoadapt"
 	"google.golang.org/protobuf/types/known/anypb"

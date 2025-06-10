@@ -24,11 +24,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal/stubserver"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal/stubserver"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 // TestInvoke verifies a straightforward invocation of ClientConn.Invoke().

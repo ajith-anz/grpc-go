@@ -34,14 +34,14 @@ import (
 
 	spb "google.golang.org/genproto/googleapis/rpc/status"
 
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal/status"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal/status"
 )
 
-// Status references github.com/ajith-anz/grpc/internal/status. It represents an
+// Status references github.com/ajith-anz/grpc-go/internal/status. It represents an
 // RPC status code, message, and details.  It is immutable and should be
 // created with New, Newf, or FromProto.
-// https://godoc.org/github.com/ajith-anz/grpc/internal/status
+// https://godoc.org/github.com/ajith-anz/grpc-go/internal/status
 type Status = status.Status
 
 // New returns a Status representing c and msg.

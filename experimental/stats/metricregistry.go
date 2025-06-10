@@ -21,9 +21,9 @@ package stats
 import (
 	"maps"
 
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/stats"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/stats"
 )
 
 func init() {

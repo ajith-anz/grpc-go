@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport/ads"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/transport/ads"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 // wrappingWatcher is a wrapper around an xdsresource.ResourceWatcher that adds

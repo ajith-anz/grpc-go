@@ -22,9 +22,9 @@
 package nop
 
 import (
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/base"
-	"github.com/ajith-anz/grpc/connectivity"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/base"
+	"github.com/ajith-anz/grpc-go/connectivity"
 )
 
 // bal is a balancer with all of its balancer operations as no-ops, other than

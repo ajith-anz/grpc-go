@@ -25,17 +25,17 @@ import (
 	"fmt"
 	rand "math/rand/v2"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/pickfirst/internal"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal/envconfig"
-	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/internal/pretty"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/pickfirst/internal"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/envconfig"
+	internalgrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/pretty"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 
-	_ "github.com/ajith-anz/grpc/balancer/pickfirst/pickfirstleaf" // For automatically registering the new pickfirst if required.
+	_ "github.com/ajith-anz/grpc-go/balancer/pickfirst/pickfirstleaf" // For automatically registering the new pickfirst if required.
 )
 
 func init() {

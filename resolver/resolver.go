@@ -28,11 +28,11 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ajith-anz/grpc/attributes"
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/experimental/stats"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go/attributes"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/experimental/stats"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 )
 
 var (

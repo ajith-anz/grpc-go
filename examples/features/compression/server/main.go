@@ -27,12 +27,12 @@ import (
 	"log"
 	"net"
 
-	"github.com/ajith-anz/grpc"
+	"github.com/ajith-anz/grpc-go"
 	// Installing the gzip encoding registers it as an available compressor.
 	// gRPC will automatically negotiate and use gzip if the client supports it.
-	_ "github.com/ajith-anz/grpc/encoding/gzip"
+	_ "github.com/ajith-anz/grpc-go/encoding/gzip"
 
-	pb "github.com/ajith-anz/grpc/examples/features/proto/echo"
+	pb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
 )
 
 var port = flag.Int("port", 50051, "the port to serve on")

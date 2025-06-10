@@ -32,11 +32,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go/testdata"
 
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
-	"github.com/ajith-anz/grpc/internal/credentials/spiffe"
-	"github.com/ajith-anz/grpc/internal/xds/matcher"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc-go/internal/credentials/spiffe"
+	"github.com/ajith-anz/grpc-go/internal/xds/matcher"
 )
 
 type testCertProvider struct {

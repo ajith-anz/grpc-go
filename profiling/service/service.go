@@ -32,10 +32,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal/profiling"
-	ppb "github.com/ajith-anz/grpc/profiling/proto"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/profiling"
+	ppb "github.com/ajith-anz/grpc-go/profiling/proto"
 )
 
 var logger = grpclog.Component("profiling")

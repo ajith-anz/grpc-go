@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/internal/leakcheck"
+	"github.com/ajith-anz/grpc-go/internal/leakcheck"
 )
 
 var lcFailed uint32

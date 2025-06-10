@@ -24,13 +24,13 @@ import (
 	"io"
 	"sync/atomic"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal/channelz"
-	istatus "github.com/ajith-anz/grpc/internal/status"
-	"github.com/ajith-anz/grpc/internal/transport"
-	"github.com/ajith-anz/grpc/stats"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal/channelz"
+	istatus "github.com/ajith-anz/grpc-go/internal/status"
+	"github.com/ajith-anz/grpc-go/internal/transport"
+	"github.com/ajith-anz/grpc-go/stats"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 // pickerGeneration stores a picker and a channel used to signal that a picker

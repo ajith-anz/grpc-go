@@ -25,13 +25,13 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/ringhash"
-	"github.com/ajith-anz/grpc/balancer/roundrobin"
-	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
-	iserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/xds/internal/balancer/outlierdetection"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/ringhash"
+	"github.com/ajith-anz/grpc-go/balancer/roundrobin"
+	iringhash "github.com/ajith-anz/grpc-go/internal/ringhash"
+	iserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/xds/internal/balancer/outlierdetection"
 )
 
 func TestDiscoveryMechanismTypeMarshalJSON(t *testing.T) {

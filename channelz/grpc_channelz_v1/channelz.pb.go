@@ -3202,7 +3202,7 @@ const file_grpc_channelz_v1_channelz_proto_rawDesc = "" +
 	"GetChannel\x12#.grpc.channelz.v1.GetChannelRequest\x1a$.grpc.channelz.v1.GetChannelResponse\x12`\n" +
 	"\rGetSubchannel\x12&.grpc.channelz.v1.GetSubchannelRequest\x1a'.grpc.channelz.v1.GetSubchannelResponse\x12T\n" +
 	"\tGetSocket\x12\".grpc.channelz.v1.GetSocketRequest\x1a#.grpc.channelz.v1.GetSocketResponseBX\n" +
-	"\x13io.grpc.channelz.v1B\rChannelzProtoP\x01Z0github.com/ajith-anz/grpc/channelz/grpc_channelz_v1b\x06proto3"
+	"\x13io.grpc.channelz.v1B\rChannelzProtoP\x01Z0github.com/ajith-anz/grpc-go/channelz/grpc_channelz_v1b\x06proto3"
 
 var (
 	file_grpc_channelz_v1_channelz_proto_rawDescOnce sync.Once

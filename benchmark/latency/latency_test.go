@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
 )
 
 type s struct {

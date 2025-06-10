@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/balancer"
-	_ "github.com/ajith-anz/grpc/balancer/weightedtarget"
-	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	_ "github.com/ajith-anz/grpc/xds/internal/balancer/cdsbalancer"
+	"github.com/ajith-anz/grpc-go/balancer"
+	_ "github.com/ajith-anz/grpc-go/balancer/weightedtarget"
+	internalserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	_ "github.com/ajith-anz/grpc-go/xds/internal/balancer/cdsbalancer"
 )
 
 const (

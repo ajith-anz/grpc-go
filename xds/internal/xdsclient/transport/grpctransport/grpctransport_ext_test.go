@@ -20,12 +20,12 @@ package grpctransport_test
 import (
 	"testing"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	internalbootstrap "github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/internal"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport/grpctransport"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	internalbootstrap "github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/transport"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/transport/grpctransport"
 )
 
 type s struct {

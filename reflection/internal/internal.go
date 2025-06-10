@@ -25,18 +25,18 @@ import (
 	"io"
 	"sort"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/status"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protodesc"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/reflect/protoregistry"
 
-	v1reflectiongrpc "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1"
-	v1reflectionpb "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1"
-	v1alphareflectiongrpc "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1alpha"
-	v1alphareflectionpb "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1alpha"
+	v1reflectiongrpc "github.com/ajith-anz/grpc-go/reflection/grpc_reflection_v1"
+	v1reflectionpb "github.com/ajith-anz/grpc-go/reflection/grpc_reflection_v1"
+	v1alphareflectiongrpc "github.com/ajith-anz/grpc-go/reflection/grpc_reflection_v1alpha"
+	v1alphareflectionpb "github.com/ajith-anz/grpc-go/reflection/grpc_reflection_v1alpha"
 )
 
 // ServiceInfoProvider is an interface used to retrieve metadata about the

@@ -367,7 +367,7 @@ const file_examples_route_guide_routeguide_route_guide_proto_rawDesc = "" +
 	"\fListFeatures\x12\x15.routeguide.Rectangle\x1a\x13.routeguide.Feature\"\x000\x01\x12>\n" +
 	"\vRecordRoute\x12\x11.routeguide.Point\x1a\x18.routeguide.RouteSummary\"\x00(\x01\x12?\n" +
 	"\tRouteChat\x12\x15.routeguide.RouteNote\x1a\x15.routeguide.RouteNote\"\x00(\x010\x01Bm\n" +
-	"\x1bio.grpc.examples.routeguideB\x0fRouteGuideProtoP\x01Z6github.com/ajith-anz/grpc/examples/route_guide/routeguide\x92\x03\x02\b\x02b\beditionsp\xe8\a"
+	"\x1bio.grpc.examples.routeguideB\x0fRouteGuideProtoP\x01Z6github.com/ajith-anz/grpc-go/examples/route_guide/routeguide\x92\x03\x02\b\x02b\beditionsp\xe8\a"
 
 var (
 	file_examples_route_guide_routeguide_route_guide_proto_rawDescOnce sync.Once

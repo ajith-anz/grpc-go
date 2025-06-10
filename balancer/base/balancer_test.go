@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/attributes"
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/attributes"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 type testClientConn struct {

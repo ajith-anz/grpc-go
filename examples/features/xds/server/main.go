@@ -29,14 +29,14 @@ import (
 	"net"
 	"os"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	xdscreds "github.com/ajith-anz/grpc/credentials/xds"
-	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
-	"github.com/ajith-anz/grpc/health"
-	healthgrpc "github.com/ajith-anz/grpc/health/grpc_health_v1"
-	healthpb "github.com/ajith-anz/grpc/health/grpc_health_v1"
-	"github.com/ajith-anz/grpc/xds"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	xdscreds "github.com/ajith-anz/grpc-go/credentials/xds"
+	pb "github.com/ajith-anz/grpc-go/examples/helloworld/helloworld"
+	"github.com/ajith-anz/grpc-go/health"
+	healthgrpc "github.com/ajith-anz/grpc-go/health/grpc_health_v1"
+	healthpb "github.com/ajith-anz/grpc-go/health/grpc_health_v1"
+	"github.com/ajith-anz/grpc-go/xds"
 )
 
 var (

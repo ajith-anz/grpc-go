@@ -22,8 +22,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	internalserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 )
 
 // Child is a child of priority balancer.

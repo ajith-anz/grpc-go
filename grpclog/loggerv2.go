@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ajith-anz/grpc/grpclog/internal"
+	"github.com/ajith-anz/grpc-go/grpclog/internal"
 )
 
 // LoggerV2 does underlying logging work for grpclog.

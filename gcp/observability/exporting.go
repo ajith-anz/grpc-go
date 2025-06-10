@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"google.golang.org/api/option"
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/stats/opencensus"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/stats/opencensus"
 
 	gcplogging "cloud.google.com/go/logging"
 )

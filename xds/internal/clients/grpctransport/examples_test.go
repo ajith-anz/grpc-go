@@ -21,8 +21,8 @@ package grpctransport_test
 import (
 	"fmt"
 
-	"github.com/ajith-anz/grpc/xds/internal/clients"
-	"github.com/ajith-anz/grpc/xds/internal/clients/grpctransport"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/grpctransport"
 )
 
 // ExampleServerIdentifierExtension demonstrates how to create

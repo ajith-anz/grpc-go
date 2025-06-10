@@ -27,8 +27,8 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"github.com/ajith-anz/grpc/internal/channelz"
-	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/channelz"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
 )
 
 type s struct {

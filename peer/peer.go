@@ -26,7 +26,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ajith-anz/grpc/credentials"
+	"github.com/ajith-anz/grpc-go/credentials"
 )
 
 // Peer contains the information of the peer for an RPC, such as the address

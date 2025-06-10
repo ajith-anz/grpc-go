@@ -28,7 +28,7 @@ import (
 
 	gcplogging "cloud.google.com/go/logging"
 	"golang.org/x/oauth2/google"
-	"github.com/ajith-anz/grpc/internal/envconfig"
+	"github.com/ajith-anz/grpc-go/internal/envconfig"
 )
 
 const envProjectID = "GOOGLE_CLOUD_PROJECT"

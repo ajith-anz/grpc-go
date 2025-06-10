@@ -20,7 +20,7 @@ package xdsresource
 import (
 	"time"
 
-	"github.com/ajith-anz/grpc/xds/internal/httpfilter"
+	"github.com/ajith-anz/grpc-go/xds/internal/httpfilter"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

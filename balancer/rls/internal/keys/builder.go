@@ -25,8 +25,8 @@ import (
 	"sort"
 	"strings"
 
-	rlspb "github.com/ajith-anz/grpc/internal/proto/grpc_lookup_v1"
-	"github.com/ajith-anz/grpc/metadata"
+	rlspb "github.com/ajith-anz/grpc-go/internal/proto/grpc_lookup_v1"
+	"github.com/ajith-anz/grpc-go/metadata"
 )
 
 // BuilderMap maps from request path to the key builder for that path.

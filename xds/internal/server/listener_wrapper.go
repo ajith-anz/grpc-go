@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc/backoff"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/grpclog"
-	internalbackoff "github.com/ajith-anz/grpc/internal/backoff"
-	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/internal/grpcsync"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/backoff"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	internalbackoff "github.com/ajith-anz/grpc-go/internal/backoff"
+	internalgrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/grpcsync"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 var (

@@ -22,7 +22,7 @@ package internal
 import (
 	"fmt"
 
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 // LocalityID is xds.Locality without XXX fields, so it can be used as map

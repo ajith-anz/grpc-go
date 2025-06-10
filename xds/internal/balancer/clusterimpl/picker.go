@@ -22,13 +22,13 @@ import (
 	"context"
 
 	v3orcapb "github.com/cncf/xds/go/xds/data/orca/v3"
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/internal/stats"
-	"github.com/ajith-anz/grpc/internal/wrr"
-	"github.com/ajith-anz/grpc/status"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/internal/stats"
+	"github.com/ajith-anz/grpc-go/internal/wrr"
+	"github.com/ajith-anz/grpc-go/status"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient"
 )
 
 // NewRandomWRR is used when calculating drops. It's exported so that tests can

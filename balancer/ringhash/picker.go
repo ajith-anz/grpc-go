@@ -24,10 +24,10 @@ import (
 
 	xxhash "github.com/cespare/xxhash/v2"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/connectivity"
-	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
-	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	iringhash "github.com/ajith-anz/grpc-go/internal/ringhash"
+	"github.com/ajith-anz/grpc-go/metadata"
 )
 
 type picker struct {

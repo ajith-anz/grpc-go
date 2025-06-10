@@ -32,21 +32,21 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/credentials/google"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/interop"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/status"
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/credentials/google"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/interop"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/status"
+	"github.com/ajith-anz/grpc-go/testdata"
 
-	_ "github.com/ajith-anz/grpc/xds/googledirectpath" // Register xDS resolver required for c2p directpath.
+	_ "github.com/ajith-anz/grpc-go/xds/googledirectpath" // Register xDS resolver required for c2p directpath.
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
-	metricspb "github.com/ajith-anz/grpc/interop/stress/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	metricspb "github.com/ajith-anz/grpc-go/interop/stress/grpc_testing"
 )
 
 const (

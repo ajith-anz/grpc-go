@@ -25,12 +25,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	rlsgrpc "github.com/ajith-anz/grpc/internal/proto/grpc_lookup_v1"
-	rlspb "github.com/ajith-anz/grpc/internal/proto/grpc_lookup_v1"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	rlsgrpc "github.com/ajith-anz/grpc-go/internal/proto/grpc_lookup_v1"
+	rlspb "github.com/ajith-anz/grpc-go/internal/proto/grpc_lookup_v1"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 // RouteLookupResponse wraps an RLS response and the associated error to be sent

@@ -25,13 +25,13 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/alts"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/interop"
-	"github.com/ajith-anz/grpc/tap"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/alts"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/interop"
+	"github.com/ajith-anz/grpc-go/tap"
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 const (

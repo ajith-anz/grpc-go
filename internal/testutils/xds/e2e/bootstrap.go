@@ -25,8 +25,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/testdata"
 )
 
 // DefaultFileWatcherConfig is a helper function to create a default certificate

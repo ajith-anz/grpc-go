@@ -27,20 +27,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/benchmark"
-	"github.com/ajith-anz/grpc/benchmark/stats"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/syscall"
-	"github.com/ajith-anz/grpc/status"
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/benchmark"
+	"github.com/ajith-anz/grpc-go/benchmark/stats"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/syscall"
+	"github.com/ajith-anz/grpc-go/status"
+	"github.com/ajith-anz/grpc-go/testdata"
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 
-	_ "github.com/ajith-anz/grpc/xds" // To install the xds resolvers and balancers.
+	_ "github.com/ajith-anz/grpc-go/xds" // To install the xds resolvers and balancers.
 )
 
 var caFile = flag.String("ca_file", "", "The file containing the CA root cert file")

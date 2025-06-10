@@ -24,14 +24,14 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/xds/internal/clients"
-	"github.com/ajith-anz/grpc/xds/internal/clients/grpctransport"
-	"github.com/ajith-anz/grpc/xds/internal/clients/internal/testutils/e2e"
-	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient"
-	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
-	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/metrics"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/grpctransport"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/internal/testutils/e2e"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/xdsclient"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/xdsclient/internal/xdsresource"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/xdsclient/metrics"
 
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 )

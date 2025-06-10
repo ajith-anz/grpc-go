@@ -24,9 +24,9 @@ import (
 	"go.opencensus.io/trace"
 	"go.opencensus.io/trace/propagation"
 
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/stats"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/stats"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 // traceInfo is data used for recording traces.

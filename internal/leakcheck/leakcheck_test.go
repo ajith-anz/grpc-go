@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc-go/internal"
 )
 
 type testLogger struct {

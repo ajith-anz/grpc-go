@@ -24,10 +24,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/keepalive"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/internal"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/keepalive"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/transport"
 
 	v3adsgrpc "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
 	v3adspb "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"

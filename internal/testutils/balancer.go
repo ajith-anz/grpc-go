@@ -24,14 +24,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/experimental/stats"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/grpcsync"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/experimental/stats"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/grpcsync"
+	"github.com/ajith-anz/grpc-go/resolver"
 
-	istats "github.com/ajith-anz/grpc/internal/stats"
+	istats "github.com/ajith-anz/grpc-go/internal/stats"
 )
 
 // TestSubConn implements the SubConn interface, to be used in tests.

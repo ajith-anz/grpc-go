@@ -26,13 +26,13 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/xds/internal/clients/grpctransport"
-	"github.com/ajith-anz/grpc/xds/internal/clients/internal/testutils"
-	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient"
-	xdsclientinternal "github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/internal"
-	"github.com/ajith-anz/grpc/xds/internal/clients/xdsclient/internal/xdsresource"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/grpctransport"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/internal/testutils"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/xdsclient"
+	xdsclientinternal "github.com/ajith-anz/grpc-go/xds/internal/clients/xdsclient/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal/clients/xdsclient/internal/xdsresource"
 
 	v3listenerpb "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 )

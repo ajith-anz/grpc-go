@@ -26,8 +26,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/testdata"
 )
 
 const wantURI = "spiffe://foo.bar.com/client/workload/1"

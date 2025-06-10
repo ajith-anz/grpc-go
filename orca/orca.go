@@ -27,10 +27,10 @@
 package orca
 
 import (
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal/balancerload"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/orca/internal"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/balancerload"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/orca/internal"
 )
 
 var logger = grpclog.Component("orca-backend-metrics")

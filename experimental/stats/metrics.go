@@ -19,7 +19,7 @@
 // Package stats contains experimental metrics/stats API's.
 package stats
 
-import "github.com/ajith-anz/grpc/stats"
+import "github.com/ajith-anz/grpc-go/stats"
 
 // MetricsRecorder records on metrics derived from metric registry.
 type MetricsRecorder interface {

@@ -28,7 +28,7 @@ package tap
 import (
 	"context"
 
-	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc-go/metadata"
 )
 
 // Info defines the relevant information needed by the handles.

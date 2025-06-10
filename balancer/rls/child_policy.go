@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/balancer/base"
-	"github.com/ajith-anz/grpc/connectivity"
-	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/balancer/base"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	internalgrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
 )
 
 // childPolicyWrapper is a reference counted wrapper around a child policy.

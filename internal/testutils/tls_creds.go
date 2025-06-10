@@ -23,8 +23,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/testdata"
 )
 
 // CreateClientTLSCredentials creates client-side TLS transport credentials

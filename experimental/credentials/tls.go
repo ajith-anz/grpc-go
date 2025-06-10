@@ -35,8 +35,8 @@ import (
 	"os"
 
 	"golang.org/x/net/http2"
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/experimental/credentials/internal"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/experimental/credentials/internal"
 )
 
 // tlsCreds is the credentials required for authenticating a connection using TLS.

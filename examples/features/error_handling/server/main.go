@@ -27,11 +27,11 @@ import (
 	"log"
 	"net"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/status"
 
-	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
+	pb "github.com/ajith-anz/grpc-go/examples/helloworld/helloworld"
 )
 
 var port = flag.Int("port", 50052, "port number")

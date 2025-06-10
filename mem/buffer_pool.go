@@ -22,7 +22,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc-go/internal"
 )
 
 // BufferPool is a pool of buffers that can be shared and reused, resulting in

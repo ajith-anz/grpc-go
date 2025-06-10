@@ -24,10 +24,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ajith-anz/grpc/codes"
-	healthgrpc "github.com/ajith-anz/grpc/health/grpc_health_v1"
-	healthpb "github.com/ajith-anz/grpc/health/grpc_health_v1"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/codes"
+	healthgrpc "github.com/ajith-anz/grpc-go/health/grpc_health_v1"
+	healthpb "github.com/ajith-anz/grpc-go/health/grpc_health_v1"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 const (

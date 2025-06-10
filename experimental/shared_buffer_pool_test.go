@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/encoding/gzip"
-	"github.com/ajith-anz/grpc/experimental"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/stubserver"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/encoding/gzip"
+	"github.com/ajith-anz/grpc-go/experimental"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/stubserver"
 
-	testgrpc "github.com/ajith-anz/grpc/interop/grpc_testing"
-	testpb "github.com/ajith-anz/grpc/interop/grpc_testing"
+	testgrpc "github.com/ajith-anz/grpc-go/interop/grpc_testing"
+	testpb "github.com/ajith-anz/grpc-go/interop/grpc_testing"
 )
 
 type s struct {

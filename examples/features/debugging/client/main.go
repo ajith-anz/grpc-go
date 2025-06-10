@@ -27,13 +27,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/channelz/service"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/resolver/manual"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/channelz/service"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/resolver/manual"
 
-	pb "github.com/ajith-anz/grpc/examples/helloworld/helloworld"
+	pb "github.com/ajith-anz/grpc-go/examples/helloworld/helloworld"
 )
 
 const (

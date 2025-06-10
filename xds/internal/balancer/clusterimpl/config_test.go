@@ -22,11 +22,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/balancer"
-	_ "github.com/ajith-anz/grpc/balancer/roundrobin"
-	_ "github.com/ajith-anz/grpc/balancer/weightedtarget"
-	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
+	"github.com/ajith-anz/grpc-go/balancer"
+	_ "github.com/ajith-anz/grpc-go/balancer/roundrobin"
+	_ "github.com/ajith-anz/grpc-go/balancer/weightedtarget"
+	internalserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
 )
 
 const (

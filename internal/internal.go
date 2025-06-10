@@ -24,8 +24,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/ajith-anz/grpc/connectivity"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go/connectivity"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 )
 
 var (

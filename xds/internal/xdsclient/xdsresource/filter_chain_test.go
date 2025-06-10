@@ -39,13 +39,13 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/ajith-anz/grpc/internal/envconfig"
-	iresolver "github.com/ajith-anz/grpc/internal/resolver"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/testutils/xds/e2e"
-	"github.com/ajith-anz/grpc/xds/internal/httpfilter"
-	"github.com/ajith-anz/grpc/xds/internal/httpfilter/router"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/ajith-anz/grpc-go/internal/envconfig"
+	iresolver "github.com/ajith-anz/grpc-go/internal/resolver"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/testutils/xds/e2e"
+	"github.com/ajith-anz/grpc-go/xds/internal/httpfilter"
+	"github.com/ajith-anz/grpc-go/xds/internal/httpfilter/router"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource/version"
 )
 
 const (

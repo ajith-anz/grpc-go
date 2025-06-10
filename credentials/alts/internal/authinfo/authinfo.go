@@ -20,8 +20,8 @@
 package authinfo
 
 import (
-	"github.com/ajith-anz/grpc/credentials"
-	altspb "github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/ajith-anz/grpc-go/credentials"
+	altspb "github.com/ajith-anz/grpc-go/credentials/alts/internal/proto/grpc_gcp"
 )
 
 var _ credentials.AuthInfo = (*altsAuthInfo)(nil)

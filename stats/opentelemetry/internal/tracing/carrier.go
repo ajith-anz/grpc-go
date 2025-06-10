@@ -23,8 +23,8 @@ package tracing
 import (
 	"context"
 
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/metadata"
 )
 
 var logger = grpclog.Component("otel-plugin")

@@ -28,15 +28,15 @@ import (
 	"time"
 
 	"golang.org/x/sync/semaphore"
-	grpc "github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/credentials"
-	core "github.com/ajith-anz/grpc/credentials/alts/internal"
-	"github.com/ajith-anz/grpc/credentials/alts/internal/authinfo"
-	"github.com/ajith-anz/grpc/credentials/alts/internal/conn"
-	altsgrpc "github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcp"
-	altspb "github.com/ajith-anz/grpc/credentials/alts/internal/proto/grpc_gcp"
-	"github.com/ajith-anz/grpc/internal/envconfig"
+	grpc "github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/credentials"
+	core "github.com/ajith-anz/grpc-go/credentials/alts/internal"
+	"github.com/ajith-anz/grpc-go/credentials/alts/internal/authinfo"
+	"github.com/ajith-anz/grpc-go/credentials/alts/internal/conn"
+	altsgrpc "github.com/ajith-anz/grpc-go/credentials/alts/internal/proto/grpc_gcp"
+	altspb "github.com/ajith-anz/grpc-go/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/ajith-anz/grpc-go/internal/envconfig"
 )
 
 const (

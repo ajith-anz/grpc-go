@@ -24,7 +24,7 @@ https://github.com/grpc/grpc/blob/master/src/proto/grpc/reflection/v1alpha/refle
 
 To register server reflection on a gRPC server:
 
-	import "github.com/ajith-anz/grpc/reflection"
+	import "github.com/ajith-anz/grpc-go/reflection"
 
 	s := grpc.NewServer()
 	pb.RegisterYourOwnServer(s, &server{})
@@ -34,17 +34,17 @@ To register server reflection on a gRPC server:
 
 	s.Serve(lis)
 */
-package reflection // import "github.com/ajith-anz/grpc/reflection"
+package reflection // import "github.com/ajith-anz/grpc-go/reflection"
 
 import (
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/reflection/internal"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/reflection/internal"
 	"google.golang.org/protobuf/reflect/protodesc"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/reflect/protoregistry"
 
-	v1reflectiongrpc "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1"
-	v1alphareflectiongrpc "github.com/ajith-anz/grpc/reflection/grpc_reflection_v1alpha"
+	v1reflectiongrpc "github.com/ajith-anz/grpc-go/reflection/grpc_reflection_v1"
+	v1alphareflectiongrpc "github.com/ajith-anz/grpc-go/reflection/grpc_reflection_v1alpha"
 )
 
 // GRPCServer is the interface provided by a gRPC server. It is implemented by

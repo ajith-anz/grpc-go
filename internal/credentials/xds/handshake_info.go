@@ -28,12 +28,12 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/ajith-anz/grpc/attributes"
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/credentials/spiffe"
-	"github.com/ajith-anz/grpc/internal/xds/matcher"
-	"github.com/ajith-anz/grpc/resolver"
+	"github.com/ajith-anz/grpc-go/attributes"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/credentials/spiffe"
+	"github.com/ajith-anz/grpc-go/internal/xds/matcher"
+	"github.com/ajith-anz/grpc-go/resolver"
 )
 
 func init() {

@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc-go/internal"
 )
 
 var (

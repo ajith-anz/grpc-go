@@ -28,11 +28,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	pb "github.com/ajith-anz/grpc/examples/features/proto/echo"
-	"github.com/ajith-anz/grpc/health"
-	healthgrpc "github.com/ajith-anz/grpc/health/grpc_health_v1"
-	healthpb "github.com/ajith-anz/grpc/health/grpc_health_v1"
+	"github.com/ajith-anz/grpc-go"
+	pb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
+	"github.com/ajith-anz/grpc-go/health"
+	healthgrpc "github.com/ajith-anz/grpc-go/health/grpc_health_v1"
+	healthpb "github.com/ajith-anz/grpc-go/health/grpc_health_v1"
 )
 
 var (

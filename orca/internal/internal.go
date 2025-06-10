@@ -24,8 +24,8 @@ import (
 	"errors"
 	"fmt"
 
-	ibackoff "github.com/ajith-anz/grpc/internal/backoff"
-	"github.com/ajith-anz/grpc/metadata"
+	ibackoff "github.com/ajith-anz/grpc-go/internal/backoff"
+	"github.com/ajith-anz/grpc-go/metadata"
 	"google.golang.org/protobuf/proto"
 
 	v3orcapb "github.com/cncf/xds/go/xds/data/orca/v3"

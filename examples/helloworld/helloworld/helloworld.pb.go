@@ -138,7 +138,7 @@ const file_examples_helloworld_helloworld_helloworld_proto_rawDesc = "" +
 	"\amessage\x18\x01 \x01(\tR\amessage2I\n" +
 	"\aGreeter\x12>\n" +
 	"\bSayHello\x12\x18.helloworld.HelloRequest\x1a\x16.helloworld.HelloReply\"\x00Bg\n" +
-	"\x1bio.grpc.examples.helloworldB\x0fHelloWorldProtoP\x01Z5github.com/ajith-anz/grpc/examples/helloworld/helloworldb\x06proto3"
+	"\x1bio.grpc.examples.helloworldB\x0fHelloWorldProtoP\x01Z5github.com/ajith-anz/grpc-go/examples/helloworld/helloworldb\x06proto3"
 
 var (
 	file_examples_helloworld_helloworld_helloworld_proto_rawDescOnce sync.Once

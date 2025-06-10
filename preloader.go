@@ -19,9 +19,9 @@
 package grpc
 
 import (
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/mem"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/mem"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 // PreparedMsg is responsible for creating a Marshalled and Compressed object.

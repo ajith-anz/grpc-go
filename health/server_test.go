@@ -21,10 +21,10 @@ package health_test
 import (
 	"testing"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/health"
-	healthgrpc "github.com/ajith-anz/grpc/health/grpc_health_v1"
-	"github.com/ajith-anz/grpc/internal/grpctest"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/health"
+	healthgrpc "github.com/ajith-anz/grpc-go/health/grpc_health_v1"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
 )
 
 type s struct {

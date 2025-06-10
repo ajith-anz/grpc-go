@@ -18,7 +18,7 @@
 
 package testutils
 
-import "github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+import "github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 
 // TestResourceWatcher implements the xdsresource.ResourceWatcher interface,
 // used to receive updates on watches registered with the xDS client, when using

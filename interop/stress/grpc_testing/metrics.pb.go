@@ -247,7 +247,7 @@ const file_interop_stress_grpc_testing_metrics_proto_rawDesc = "" +
 	"\fEmptyMessage2\xa0\x01\n" +
 	"\x0eMetricsService\x12I\n" +
 	"\fGetAllGauges\x12\x1a.grpc.testing.EmptyMessage\x1a\x1b.grpc.testing.GaugeResponse0\x01\x12C\n" +
-	"\bGetGauge\x12\x1a.grpc.testing.GaugeRequest\x1a\x1b.grpc.testing.GaugeResponseB4Z2github.com/ajith-anz/grpc/interop/stress/grpc_testingb\x06proto3"
+	"\bGetGauge\x12\x1a.grpc.testing.GaugeRequest\x1a\x1b.grpc.testing.GaugeResponseB4Z2github.com/ajith-anz/grpc-go/interop/stress/grpc_testingb\x06proto3"
 
 var (
 	file_interop_stress_grpc_testing_metrics_proto_rawDescOnce sync.Once

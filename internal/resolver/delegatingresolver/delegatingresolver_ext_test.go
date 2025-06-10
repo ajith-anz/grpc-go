@@ -27,16 +27,16 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/proxyattributes"
-	"github.com/ajith-anz/grpc/internal/resolver/delegatingresolver"
-	"github.com/ajith-anz/grpc/internal/testutils"
-	"github.com/ajith-anz/grpc/internal/transport/networktype"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/resolver/manual"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/proxyattributes"
+	"github.com/ajith-anz/grpc-go/internal/resolver/delegatingresolver"
+	"github.com/ajith-anz/grpc-go/internal/testutils"
+	"github.com/ajith-anz/grpc-go/internal/transport/networktype"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/resolver/manual"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 
-	_ "github.com/ajith-anz/grpc/resolver/dns" // To register dns resolver.
+	_ "github.com/ajith-anz/grpc-go/resolver/dns" // To register dns resolver.
 )
 
 type s struct {

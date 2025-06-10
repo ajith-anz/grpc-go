@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ajith-anz/grpc/testdata"
+	"github.com/ajith-anz/grpc-go/testdata"
 )
 
 const wantURI = "spiffe://foo.bar.com/client/workload/1"

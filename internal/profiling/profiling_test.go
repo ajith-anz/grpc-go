@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/internal/grpctest"
-	"github.com/ajith-anz/grpc/internal/profiling/buffer"
+	"github.com/ajith-anz/grpc-go/internal/grpctest"
+	"github.com/ajith-anz/grpc-go/internal/profiling/buffer"
 )
 
 type s struct {

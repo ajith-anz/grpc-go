@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	estats "github.com/ajith-anz/grpc/experimental/stats"
-	"github.com/ajith-anz/grpc/internal/backoff"
-	internalgrpclog "github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/internal/grpcsync"
+	estats "github.com/ajith-anz/grpc-go/experimental/stats"
+	"github.com/ajith-anz/grpc-go/internal/backoff"
+	internalgrpclog "github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/grpcsync"
 )
 
 // cacheKey represents the key used to uniquely identify an entry in the data

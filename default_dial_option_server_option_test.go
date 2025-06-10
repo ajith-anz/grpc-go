@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	"github.com/ajith-anz/grpc/internal"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	"github.com/ajith-anz/grpc-go/internal"
 )
 
 func (s) TestAddGlobalDialOptions(t *testing.T) {

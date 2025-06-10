@@ -29,17 +29,17 @@ import (
 	"time"
 
 	xxhash "github.com/cespare/xxhash/v2"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal/grpcutil"
-	iresolver "github.com/ajith-anz/grpc/internal/resolver"
-	iringhash "github.com/ajith-anz/grpc/internal/ringhash"
-	"github.com/ajith-anz/grpc/internal/serviceconfig"
-	"github.com/ajith-anz/grpc/internal/wrr"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/status"
-	"github.com/ajith-anz/grpc/xds/internal/balancer/clustermanager"
-	"github.com/ajith-anz/grpc/xds/internal/httpfilter"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal/grpcutil"
+	iresolver "github.com/ajith-anz/grpc-go/internal/resolver"
+	iringhash "github.com/ajith-anz/grpc-go/internal/ringhash"
+	"github.com/ajith-anz/grpc-go/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/internal/wrr"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/status"
+	"github.com/ajith-anz/grpc-go/xds/internal/balancer/clustermanager"
+	"github.com/ajith-anz/grpc-go/xds/internal/httpfilter"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 const (

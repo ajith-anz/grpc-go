@@ -36,9 +36,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ajith-anz/grpc/credentials/tls/certprovider"
-	"github.com/ajith-anz/grpc/grpclog"
-	"github.com/ajith-anz/grpc/internal/credentials/spiffe"
+	"github.com/ajith-anz/grpc-go/credentials/tls/certprovider"
+	"github.com/ajith-anz/grpc-go/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/credentials/spiffe"
 )
 
 const defaultCertRefreshDuration = 1 * time.Hour

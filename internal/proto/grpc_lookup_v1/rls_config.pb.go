@@ -701,7 +701,7 @@ const file_grpc_lookup_v1_rls_config_proto_rawDesc = "" +
 	"\x10\vR\x1brequest_processing_strategy\"p\n" +
 	"\x1bRouteLookupClusterSpecifier\x12Q\n" +
 	"\x13route_lookup_config\x18\x01 \x01(\v2!.grpc.lookup.v1.RouteLookupConfigR\x11routeLookupConfigBS\n" +
-	"\x11io.grpc.lookup.v1B\x0eRlsConfigProtoP\x01Z,github.com/ajith-anz/grpc/lookup/grpc_lookup_v1b\x06proto3"
+	"\x11io.grpc.lookup.v1B\x0eRlsConfigProtoP\x01Z,github.com/ajith-anz/grpc-go/lookup/grpc_lookup_v1b\x06proto3"
 
 var (
 	file_grpc_lookup_v1_rls_config_proto_rawDescOnce sync.Once

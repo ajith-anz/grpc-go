@@ -23,7 +23,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/ajith-anz/grpc/mem"
+	"github.com/ajith-anz/grpc-go/mem"
 )
 
 func (s) TestBufferPool(t *testing.T) {

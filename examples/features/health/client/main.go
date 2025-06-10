@@ -27,12 +27,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/ajith-anz/grpc"
-	"github.com/ajith-anz/grpc/credentials/insecure"
-	pb "github.com/ajith-anz/grpc/examples/features/proto/echo"
-	_ "github.com/ajith-anz/grpc/health"
-	"github.com/ajith-anz/grpc/resolver"
-	"github.com/ajith-anz/grpc/resolver/manual"
+	"github.com/ajith-anz/grpc-go"
+	"github.com/ajith-anz/grpc-go/credentials/insecure"
+	pb "github.com/ajith-anz/grpc-go/examples/features/proto/echo"
+	_ "github.com/ajith-anz/grpc-go/health"
+	"github.com/ajith-anz/grpc-go/resolver"
+	"github.com/ajith-anz/grpc-go/resolver/manual"
 )
 
 var serviceConfig = `{

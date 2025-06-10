@@ -27,9 +27,9 @@ package grpc_lb_v1
 
 import (
 	context "context"
-	grpc "github.com/ajith-anz/grpc"
-	codes "github.com/ajith-anz/grpc/codes"
-	status "github.com/ajith-anz/grpc/status"
+	grpc "github.com/ajith-anz/grpc-go"
+	codes "github.com/ajith-anz/grpc-go/codes"
+	status "github.com/ajith-anz/grpc-go/status"
 )
 
 // This is a compile-time assertion to ensure that this generated file
@@ -43,7 +43,7 @@ const (
 
 // LoadBalancerClient is the client API for LoadBalancer service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/ajith-anz/grpc-go/?tab=doc#ClientConn.NewStream.
 type LoadBalancerClient interface {
 	// Bidirectional rpc to get a list of servers.
 	BalanceLoad(ctx context.Context, opts ...grpc.CallOption) (grpc.BidiStreamingClient[LoadBalanceRequest, LoadBalanceResponse], error)

@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ajith-anz/grpc/internal/grpcutil"
-	"github.com/ajith-anz/grpc/metadata"
+	"github.com/ajith-anz/grpc-go/internal/grpcutil"
+	"github.com/ajith-anz/grpc-go/metadata"
 )
 
 // HeaderMatcher is an interface for header matchers. These are

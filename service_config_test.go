@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ajith-anz/grpc/balancer"
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/internal/balancer/gracefulswitch"
-	"github.com/ajith-anz/grpc/serviceconfig"
+	"github.com/ajith-anz/grpc-go/balancer"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/internal/balancer/gracefulswitch"
+	"github.com/ajith-anz/grpc-go/serviceconfig"
 
-	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
+	internalserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
 )
 
 type parseTestCase struct {

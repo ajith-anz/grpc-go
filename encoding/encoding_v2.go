@@ -21,7 +21,7 @@ package encoding
 import (
 	"strings"
 
-	"github.com/ajith-anz/grpc/mem"
+	"github.com/ajith-anz/grpc-go/mem"
 )
 
 // CodecV2 defines the interface gRPC uses to encode and decode messages. Note

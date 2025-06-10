@@ -27,17 +27,17 @@ import (
 	"time"
 
 	v3statuspb "github.com/envoyproxy/go-control-plane/envoy/service/status/v3"
-	estats "github.com/ajith-anz/grpc/experimental/stats"
-	"github.com/ajith-anz/grpc/internal"
-	"github.com/ajith-anz/grpc/internal/backoff"
-	"github.com/ajith-anz/grpc/internal/grpclog"
-	"github.com/ajith-anz/grpc/internal/grpcsync"
-	"github.com/ajith-anz/grpc/internal/xds/bootstrap"
-	xdsclientinternal "github.com/ajith-anz/grpc/xds/internal/xdsclient/internal"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport/ads"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/transport/grpctransport"
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	estats "github.com/ajith-anz/grpc-go/experimental/stats"
+	"github.com/ajith-anz/grpc-go/internal"
+	"github.com/ajith-anz/grpc-go/internal/backoff"
+	"github.com/ajith-anz/grpc-go/internal/grpclog"
+	"github.com/ajith-anz/grpc-go/internal/grpcsync"
+	"github.com/ajith-anz/grpc-go/internal/xds/bootstrap"
+	xdsclientinternal "github.com/ajith-anz/grpc-go/xds/internal/xdsclient/internal"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/transport"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/transport/ads"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/transport/grpctransport"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 const (

@@ -29,16 +29,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ajith-anz/grpc/codes"
-	"github.com/ajith-anz/grpc/credentials"
-	"github.com/ajith-anz/grpc/encoding"
-	"github.com/ajith-anz/grpc/encoding/proto"
-	"github.com/ajith-anz/grpc/internal/transport"
-	"github.com/ajith-anz/grpc/mem"
-	"github.com/ajith-anz/grpc/metadata"
-	"github.com/ajith-anz/grpc/peer"
-	"github.com/ajith-anz/grpc/stats"
-	"github.com/ajith-anz/grpc/status"
+	"github.com/ajith-anz/grpc-go/codes"
+	"github.com/ajith-anz/grpc-go/credentials"
+	"github.com/ajith-anz/grpc-go/encoding"
+	"github.com/ajith-anz/grpc-go/encoding/proto"
+	"github.com/ajith-anz/grpc-go/internal/transport"
+	"github.com/ajith-anz/grpc-go/mem"
+	"github.com/ajith-anz/grpc-go/metadata"
+	"github.com/ajith-anz/grpc-go/peer"
+	"github.com/ajith-anz/grpc-go/stats"
+	"github.com/ajith-anz/grpc-go/status"
 )
 
 // Compressor defines the interface gRPC uses to compress a message.

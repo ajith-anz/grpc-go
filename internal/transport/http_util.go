@@ -36,7 +36,7 @@ import (
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
-	"github.com/ajith-anz/grpc/codes"
+	"github.com/ajith-anz/grpc-go/codes"
 )
 
 const (

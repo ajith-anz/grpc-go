@@ -25,7 +25,7 @@
 package profiling
 
 import (
-	internal "github.com/ajith-anz/grpc/internal/profiling"
+	internal "github.com/ajith-anz/grpc-go/internal/profiling"
 )
 
 // Enable turns profiling on and off. This operation is safe for concurrent

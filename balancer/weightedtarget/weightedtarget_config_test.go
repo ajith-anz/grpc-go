@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ajith-anz/grpc/balancer"
-	_ "github.com/ajith-anz/grpc/balancer/grpclb"
-	"github.com/ajith-anz/grpc/balancer/roundrobin"
-	internalserviceconfig "github.com/ajith-anz/grpc/internal/serviceconfig"
+	"github.com/ajith-anz/grpc-go/balancer"
+	_ "github.com/ajith-anz/grpc-go/balancer/grpclb"
+	"github.com/ajith-anz/grpc-go/balancer/roundrobin"
+	internalserviceconfig "github.com/ajith-anz/grpc-go/internal/serviceconfig"
 )
 
 const (

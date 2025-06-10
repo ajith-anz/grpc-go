@@ -21,8 +21,8 @@ package grpc
 import (
 	"testing"
 
-	"github.com/ajith-anz/grpc/encoding"
-	"github.com/ajith-anz/grpc/encoding/proto"
+	"github.com/ajith-anz/grpc-go/encoding"
+	"github.com/ajith-anz/grpc-go/encoding/proto"
 )
 
 func (s) TestGetCodecForProtoIsNotNil(t *testing.T) {

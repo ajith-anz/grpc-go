@@ -28,7 +28,7 @@ import (
 	rand "math/rand/v2"
 	"time"
 
-	grpcbackoff "github.com/ajith-anz/grpc/backoff"
+	grpcbackoff "github.com/ajith-anz/grpc-go/backoff"
 )
 
 // Strategy defines the methodology for backing off after a grpc connection

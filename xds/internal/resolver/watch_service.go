@@ -21,7 +21,7 @@ package resolver
 import (
 	"context"
 
-	"github.com/ajith-anz/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/ajith-anz/grpc-go/xds/internal/xdsclient/xdsresource"
 )
 
 type listenerWatcher struct {
